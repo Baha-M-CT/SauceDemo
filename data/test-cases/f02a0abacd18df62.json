@@ -1,23 +1,21 @@
 {
-  "uid" : "27f8d46f7e0d3352",
-  "name" : "checkCartPageUI",
-  "fullName" : "UserInterfaceTest.checkCartPageUI",
-  "historyId" : "340257dfb42096bacb18ea7d9bb712dd",
+  "uid" : "f02a0abacd18df62",
+  "name" : "Verify user cannot login with invalid password",
+  "fullName" : "LoginTest.loginWithInvalidPassword",
+  "historyId" : "9604915977dae7fe467e5bd7163b3316",
   "time" : {
-    "start" : 1741831204308,
-    "stop" : 1741831204953,
-    "duration" : 645
+    "start" : 1741832588711,
+    "stop" : 1741832589055,
+    "duration" : 344
   },
-  "description" : "Validate Cart page UI elements",
-  "descriptionHtml" : "<p>Validate Cart page UI elements</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741831203768,
-      "stop" : 1741831204306,
-      "duration" : 538
+      "start" : 1741832588164,
+      "stop" : 1741832588708,
+      "duration" : 544
     },
     "description" : "",
     "status" : "passed",
@@ -32,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741831204954,
-      "stop" : 1741831205417,
-      "duration" : 463
+      "start" : 1741832589056,
+      "stop" : 1741832589496,
+      "duration" : 440
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "e645af0430e03839",
+      "uid" : "275168a7983e9d2c",
       "name" : "screenshot",
-      "source" : "e645af0430e03839.png",
+      "source" : "275168a7983e9d2c.png",
       "type" : "image/png",
-      "size" : 341500
+      "size" : 61212
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -54,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "checkCartPageUI"
+    "value" : "loginWithInvalidPassword"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -69,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1922-270"
+    "value" : "fv-az1693-88"
   }, {
     "name" : "thread",
-    "value" : "1996@fv-az1922-270.main(1)"
+    "value" : "2019@fv-az1693-88.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -99,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "27f8d46f7e0d3352.json",
+  "source" : "f02a0abacd18df62.json",
   "parameterValues" : [ ]
 }

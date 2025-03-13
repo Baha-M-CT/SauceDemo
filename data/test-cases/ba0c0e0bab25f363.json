@@ -1,23 +1,23 @@
 {
-  "uid" : "6983ba79c9a3f12d",
-  "name" : "checkLoginPageUI",
-  "fullName" : "UserInterfaceTest.checkLoginPageUI",
-  "historyId" : "e898aa0d4ae4df78dfd8e8f8184db0cd",
+  "uid" : "ba0c0e0bab25f363",
+  "name" : "checkCartPageUI",
+  "fullName" : "UserInterfaceTest.checkCartPageUI",
+  "historyId" : "340257dfb42096bacb18ea7d9bb712dd",
   "time" : {
-    "start" : 1741831205907,
-    "stop" : 1741831206082,
-    "duration" : 175
+    "start" : 1741832598423,
+    "stop" : 1741832599131,
+    "duration" : 708
   },
-  "description" : "Validate Login page UI elements",
-  "descriptionHtml" : "<p>Validate Login page UI elements</p>\n",
+  "description" : "Validate Cart page UI elements",
+  "descriptionHtml" : "<p>Validate Cart page UI elements</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741831205418,
-      "stop" : 1741831205905,
-      "duration" : 487
+      "start" : 1741832597904,
+      "stop" : 1741832598421,
+      "duration" : 517
     },
     "description" : "",
     "status" : "passed",
@@ -32,19 +32,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741831206083,
-      "stop" : 1741831206527,
-      "duration" : 444
+      "start" : 1741832599132,
+      "stop" : 1741832599601,
+      "duration" : 469
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fc34017274311ada",
+      "uid" : "a447be37d70c9583",
       "name" : "screenshot",
-      "source" : "fc34017274311ada.png",
+      "source" : "a447be37d70c9583.png",
       "type" : "image/png",
-      "size" : 52536
+      "size" : 341500
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -60,7 +60,7 @@
     "value" : "UserInterfaceTest"
   }, {
     "name" : "testMethod",
-    "value" : "checkLoginPageUI"
+    "value" : "checkCartPageUI"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -72,10 +72,10 @@
     "value" : "UserInterfaceTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1922-270"
+    "value" : "fv-az1693-88"
   }, {
     "name" : "thread",
-    "value" : "1996@fv-az1922-270.main(1)"
+    "value" : "2019@fv-az1693-88.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "6983ba79c9a3f12d.json",
+  "source" : "ba0c0e0bab25f363.json",
   "parameterValues" : [ ]
 }

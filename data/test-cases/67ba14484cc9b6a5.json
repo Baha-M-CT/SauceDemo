@@ -1,21 +1,21 @@
 {
-  "uid" : "422ee9f0d5bab25f",
-  "name" : "Verify user cannot login with empty password",
-  "fullName" : "LoginTest.loginWithEmptyPassword",
-  "historyId" : "440002fe8c2fe6e84c3149435f5a540b",
+  "uid" : "67ba14484cc9b6a5",
+  "name" : "Verify user cannot login with invalid username",
+  "fullName" : "LoginTest.loginWithInvalidUsername",
+  "historyId" : "45fe57be3dbfb2444e2f0ee3e818a9c9",
   "time" : {
-    "start" : 1741831190691,
-    "stop" : 1741831191248,
-    "duration" : 557
+    "start" : 1741832590059,
+    "stop" : 1741832590393,
+    "duration" : 334
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741831187743,
-      "stop" : 1741831190621,
-      "duration" : 2878
+      "start" : 1741832589498,
+      "stop" : 1741832590056,
+      "duration" : 558
     },
     "description" : "",
     "status" : "passed",
@@ -30,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741831191256,
-      "stop" : 1741831191685,
-      "duration" : 429
+      "start" : 1741832590394,
+      "stop" : 1741832590829,
+      "duration" : 435
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "9eb2b59611694d1f",
+      "uid" : "afb7c1671b17a740",
       "name" : "screenshot",
-      "source" : "9eb2b59611694d1f.png",
+      "source" : "afb7c1671b17a740.png",
       "type" : "image/png",
-      "size" : 58706
+      "size" : 60784
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -58,7 +58,7 @@
     "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "loginWithEmptyPassword"
+    "value" : "loginWithInvalidUsername"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -70,10 +70,10 @@
     "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1922-270"
+    "value" : "fv-az1693-88"
   }, {
     "name" : "thread",
-    "value" : "1996@fv-az1922-270.main(1)"
+    "value" : "2019@fv-az1693-88.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -97,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "422ee9f0d5bab25f.json",
+  "source" : "67ba14484cc9b6a5.json",
   "parameterValues" : [ ]
 }

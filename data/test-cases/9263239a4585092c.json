@@ -1,21 +1,21 @@
 {
-  "uid" : "56185201689556d6",
-  "name" : "verifyAllProducts",
-  "fullName" : "test.java.utils.ProductsTest.verifyAllProducts",
-  "historyId" : "e44fef9cb0d708c1b49e88cd8c967879",
+  "uid" : "9263239a4585092c",
+  "name" : "Verify user cannot login with empty password",
+  "fullName" : "LoginTest.loginWithEmptyPassword",
+  "historyId" : "440002fe8c2fe6e84c3149435f5a540b",
   "time" : {
-    "start" : 1741831200276,
-    "stop" : 1741831201109,
-    "duration" : 833
+    "start" : 1741832584289,
+    "stop" : 1741832584878,
+    "duration" : 589
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741831199765,
-      "stop" : 1741831200273,
-      "duration" : 508
+      "start" : 1741832571538,
+      "stop" : 1741832584210,
+      "duration" : 12672
     },
     "description" : "",
     "status" : "passed",
@@ -30,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741831201110,
-      "stop" : 1741831201581,
-      "duration" : 471
+      "start" : 1741832584887,
+      "stop" : 1741832585346,
+      "duration" : 459
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "bfe9b1f764e5baa",
+      "uid" : "9ca51173d52ddaf1",
       "name" : "screenshot",
-      "source" : "bfe9b1f764e5baa.png",
+      "source" : "9ca51173d52ddaf1.png",
       "type" : "image/png",
-      "size" : 341500
+      "size" : 58706
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -52,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "test.java.utils.ProductsTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "test.java.utils.ProductsTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "verifyAllProducts"
+    "value" : "loginWithEmptyPassword"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -67,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "test.java.utils.ProductsTest"
+    "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1922-270"
+    "value" : "fv-az1693-88"
   }, {
     "name" : "thread",
-    "value" : "1996@fv-az1922-270.main(1)"
+    "value" : "2019@fv-az1693-88.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -97,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "56185201689556d6.json",
+  "source" : "9263239a4585092c.json",
   "parameterValues" : [ ]
 }

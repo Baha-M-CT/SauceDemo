@@ -1,21 +1,21 @@
 {
-  "uid" : "9fd8f3c04cffb60c",
-  "name" : "Verify user cannot login with invalid credentials",
-  "fullName" : "LoginTest.loginWithInvalidUsernameAndPassword",
-  "historyId" : "861fd6673bf556584e4d8da93bdb680d",
+  "uid" : "ec1c5576ee666a02",
+  "name" : "verifyAllProducts",
+  "fullName" : "test.java.utils.ProductsTest.verifyAllProducts",
+  "historyId" : "e44fef9cb0d708c1b49e88cd8c967879",
   "time" : {
-    "start" : 1741831197512,
-    "stop" : 1741831197827,
-    "duration" : 315
+    "start" : 1741832594183,
+    "stop" : 1741832595080,
+    "duration" : 897
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741831197002,
-      "stop" : 1741831197506,
-      "duration" : 504
+      "start" : 1741832593667,
+      "stop" : 1741832594179,
+      "duration" : 512
     },
     "description" : "",
     "status" : "passed",
@@ -30,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741831197828,
-      "stop" : 1741831198268,
-      "duration" : 440
+      "start" : 1741832595081,
+      "stop" : 1741832595569,
+      "duration" : 488
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7548be973dc08f4f",
+      "uid" : "a4381a441f801488",
       "name" : "screenshot",
-      "source" : "7548be973dc08f4f.png",
+      "source" : "a4381a441f801488.png",
       "type" : "image/png",
-      "size" : 60168
+      "size" : 341500
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -52,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "LoginTest"
+    "value" : "test.java.utils.ProductsTest"
   }, {
     "name" : "testClass",
-    "value" : "LoginTest"
+    "value" : "test.java.utils.ProductsTest"
   }, {
     "name" : "testMethod",
-    "value" : "loginWithInvalidUsernameAndPassword"
+    "value" : "verifyAllProducts"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -67,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "LoginTest"
+    "value" : "test.java.utils.ProductsTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1922-270"
+    "value" : "fv-az1693-88"
   }, {
     "name" : "thread",
-    "value" : "1996@fv-az1922-270.main(1)"
+    "value" : "2019@fv-az1693-88.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -97,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9fd8f3c04cffb60c.json",
+  "source" : "ec1c5576ee666a02.json",
   "parameterValues" : [ ]
 }

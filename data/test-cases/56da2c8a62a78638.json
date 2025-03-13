@@ -1,23 +1,23 @@
 {
-  "uid" : "f61e3c787e68cace",
-  "name" : "checkProductPageUI",
-  "fullName" : "UserInterfaceTest.checkProductPageUI",
-  "historyId" : "378f061b449182c1176a1b8c0b783ce3",
+  "uid" : "56da2c8a62a78638",
+  "name" : "checkLoginPageUI",
+  "fullName" : "UserInterfaceTest.checkLoginPageUI",
+  "historyId" : "e898aa0d4ae4df78dfd8e8f8184db0cd",
   "time" : {
-    "start" : 1741831207052,
-    "stop" : 1741831208014,
-    "duration" : 962
+    "start" : 1741832600137,
+    "stop" : 1741832600314,
+    "duration" : 177
   },
-  "description" : "Validate Products page UI elements",
-  "descriptionHtml" : "<p>Validate Products page UI elements</p>\n",
+  "description" : "Validate Login page UI elements",
+  "descriptionHtml" : "<p>Validate Login page UI elements</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741831206529,
-      "stop" : 1741831207050,
-      "duration" : 521
+      "start" : 1741832599602,
+      "stop" : 1741832600136,
+      "duration" : 534
     },
     "description" : "",
     "status" : "passed",
@@ -32,19 +32,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741831208015,
-      "stop" : 1741831208522,
-      "duration" : 507
+      "start" : 1741832600315,
+      "stop" : 1741832600765,
+      "duration" : 450
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c6fe1da9dc1de4ec",
+      "uid" : "1266f14548614261",
       "name" : "screenshot",
-      "source" : "c6fe1da9dc1de4ec.png",
+      "source" : "1266f14548614261.png",
       "type" : "image/png",
-      "size" : 338669
+      "size" : 52536
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -60,7 +60,7 @@
     "value" : "UserInterfaceTest"
   }, {
     "name" : "testMethod",
-    "value" : "checkProductPageUI"
+    "value" : "checkLoginPageUI"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -72,10 +72,10 @@
     "value" : "UserInterfaceTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1922-270"
+    "value" : "fv-az1693-88"
   }, {
     "name" : "thread",
-    "value" : "1996@fv-az1922-270.main(1)"
+    "value" : "2019@fv-az1693-88.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f61e3c787e68cace.json",
+  "source" : "56da2c8a62a78638.json",
   "parameterValues" : [ ]
 }

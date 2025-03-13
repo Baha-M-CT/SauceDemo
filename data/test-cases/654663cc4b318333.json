@@ -1,23 +1,21 @@
 {
-  "uid" : "94a40ceaee83d0c0",
-  "name" : "productPlaceOrderTest",
-  "fullName" : "OrderTest.productPlaceOrderTest",
-  "historyId" : "8534f27e2ea5c5103e4a34c0eda31c30",
+  "uid" : "654663cc4b318333",
+  "name" : "Verify user cannot login with empty credentials",
+  "fullName" : "LoginTest.loginWithEmptyUsernameAndPassword",
+  "historyId" : "5ae2209116f2d1b460baf90c2cc34561",
   "time" : {
-    "start" : 1741831202097,
-    "stop" : 1741831203351,
-    "duration" : 1254
+    "start" : 1741832587395,
+    "stop" : 1741832587714,
+    "duration" : 319
   },
-  "description" : "Sample test to demonstrate Allure reporting",
-  "descriptionHtml" : "<p>Sample test to demonstrate Allure reporting</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741831201584,
-      "stop" : 1741831202091,
-      "duration" : 507
+      "start" : 1741832586848,
+      "stop" : 1741832587393,
+      "duration" : 545
     },
     "description" : "",
     "status" : "passed",
@@ -32,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741831203352,
-      "stop" : 1741831203767,
-      "duration" : 415
+      "start" : 1741832587716,
+      "stop" : 1741832588163,
+      "duration" : 447
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c7a040cfb8260a0c",
+      "uid" : "3d97d57f6c565523",
       "name" : "screenshot",
-      "source" : "c7a040cfb8260a0c.png",
+      "source" : "3d97d57f6c565523.png",
       "type" : "image/png",
-      "size" : 61880
+      "size" : 58208
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -54,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "OrderTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "OrderTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "productPlaceOrderTest"
+    "value" : "loginWithEmptyUsernameAndPassword"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -69,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "OrderTest"
+    "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1922-270"
+    "value" : "fv-az1693-88"
   }, {
     "name" : "thread",
-    "value" : "1996@fv-az1922-270.main(1)"
+    "value" : "2019@fv-az1693-88.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -84,7 +82,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Place Order Feature"
+    "value" : "Auth Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -99,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "94a40ceaee83d0c0.json",
+  "source" : "654663cc4b318333.json",
   "parameterValues" : [ ]
 }
