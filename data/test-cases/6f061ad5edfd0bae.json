@@ -1,23 +1,21 @@
 {
-  "uid" : "969d76586000725d",
-  "name" : "checkProductPageUI",
-  "fullName" : "UserInterfaceTest.checkProductPageUI",
-  "historyId" : "378f061b449182c1176a1b8c0b783ce3",
+  "uid" : "6f061ad5edfd0bae",
+  "name" : "Verify user cannot login with empty password",
+  "fullName" : "LoginTest.loginWithEmptyPassword",
+  "historyId" : "440002fe8c2fe6e84c3149435f5a540b",
   "time" : {
-    "start" : 1741832601302,
-    "stop" : 1741832602530,
-    "duration" : 1228
+    "start" : 1741833275777,
+    "stop" : 1741833276098,
+    "duration" : 321
   },
-  "description" : "Validate Products page UI elements",
-  "descriptionHtml" : "<p>Validate Products page UI elements</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741832600766,
-      "stop" : 1741832601300,
-      "duration" : 534
+      "start" : 1741833275142,
+      "stop" : 1741833275775,
+      "duration" : 633
     },
     "description" : "",
     "status" : "passed",
@@ -32,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741832602531,
-      "stop" : 1741832603028,
-      "duration" : 497
+      "start" : 1741833276100,
+      "stop" : 1741833276543,
+      "duration" : 443
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "28fe3e4c662955cb",
+      "uid" : "642c7ec242f1ebdd",
       "name" : "screenshot",
-      "source" : "28fe3e4c662955cb.png",
+      "source" : "642c7ec242f1ebdd.png",
       "type" : "image/png",
-      "size" : 337667
+      "size" : 58706
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -54,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "checkProductPageUI"
+    "value" : "loginWithEmptyPassword"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -69,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1693-88"
+    "value" : "fv-az1705-933"
   }, {
     "name" : "thread",
-    "value" : "2019@fv-az1693-88.main(1)"
+    "value" : "2015@fv-az1705-933.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -99,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "969d76586000725d.json",
+  "source" : "6f061ad5edfd0bae.json",
   "parameterValues" : [ ]
 }

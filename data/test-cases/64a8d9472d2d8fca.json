@@ -1,20 +1,20 @@
 {
-  "uid" : "e2081d9d7b97bc02",
-  "name" : "Verify user can login with valid username and password",
-  "fullName" : "LoginTest.loginWithValidUsernameAndPassword",
-  "historyId" : "a2688d434e59745698a87d287357b82e",
+  "uid" : "64a8d9472d2d8fca",
+  "name" : "Verify user cannot login with invalid password",
+  "fullName" : "LoginTest.loginWithInvalidPassword",
+  "historyId" : "9604915977dae7fe467e5bd7163b3316",
   "time" : {
-    "start" : 1741832592664,
-    "stop" : 1741832593179,
-    "duration" : 515
+    "start" : 1741833279662,
+    "stop" : 1741833279988,
+    "duration" : 326
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741832592130,
-      "stop" : 1741832592661,
+      "start" : 1741833279129,
+      "stop" : 1741833279660,
       "duration" : 531
     },
     "description" : "",
@@ -30,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741832593181,
-      "stop" : 1741832593666,
-      "duration" : 485
+      "start" : 1741833279989,
+      "stop" : 1741833280428,
+      "duration" : 439
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "950c454ad30535b3",
+      "uid" : "64db884aa7aef8ad",
       "name" : "screenshot",
-      "source" : "950c454ad30535b3.png",
+      "source" : "64db884aa7aef8ad.png",
       "type" : "image/png",
-      "size" : 341500
+      "size" : 61212
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -58,7 +58,7 @@
     "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "loginWithValidUsernameAndPassword"
+    "value" : "loginWithInvalidPassword"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -70,10 +70,10 @@
     "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1693-88"
+    "value" : "fv-az1705-933"
   }, {
     "name" : "thread",
-    "value" : "2019@fv-az1693-88.main(1)"
+    "value" : "2015@fv-az1705-933.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -97,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e2081d9d7b97bc02.json",
+  "source" : "64a8d9472d2d8fca.json",
   "parameterValues" : [ ]
 }

@@ -1,23 +1,21 @@
 {
-  "uid" : "ba0c0e0bab25f363",
-  "name" : "checkCartPageUI",
-  "fullName" : "UserInterfaceTest.checkCartPageUI",
-  "historyId" : "340257dfb42096bacb18ea7d9bb712dd",
+  "uid" : "ca7ef0ab576af879",
+  "name" : "verifyAllProducts",
+  "fullName" : "ProductsTest.verifyAllProducts",
+  "historyId" : "a819247948ca9ac9cb1bd8dfbad19b9d",
   "time" : {
-    "start" : 1741832598423,
-    "stop" : 1741832599131,
-    "duration" : 708
+    "start" : 1741833273369,
+    "stop" : 1741833274636,
+    "duration" : 1267
   },
-  "description" : "Validate Cart page UI elements",
-  "descriptionHtml" : "<p>Validate Cart page UI elements</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741832597904,
-      "stop" : 1741832598421,
-      "duration" : 517
+      "start" : 1741833264474,
+      "stop" : 1741833273291,
+      "duration" : 8817
     },
     "description" : "",
     "status" : "passed",
@@ -32,17 +30,17 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741832599132,
-      "stop" : 1741832599601,
-      "duration" : 469
+      "start" : 1741833274645,
+      "stop" : 1741833275138,
+      "duration" : 493
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a447be37d70c9583",
+      "uid" : "76500444e5948608",
       "name" : "screenshot",
-      "source" : "a447be37d70c9583.png",
+      "source" : "76500444e5948608.png",
       "type" : "image/png",
       "size" : 341500
     } ],
@@ -54,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "UserInterfaceTest"
+    "value" : "ProductsTest"
   }, {
     "name" : "testClass",
-    "value" : "UserInterfaceTest"
+    "value" : "ProductsTest"
   }, {
     "name" : "testMethod",
-    "value" : "checkCartPageUI"
+    "value" : "verifyAllProducts"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -69,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "UserInterfaceTest"
+    "value" : "ProductsTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1693-88"
+    "value" : "fv-az1705-933"
   }, {
     "name" : "thread",
-    "value" : "2019@fv-az1693-88.main(1)"
+    "value" : "2015@fv-az1705-933.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -84,7 +82,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Auth Feature"
+    "value" : "Products Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -99,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ba0c0e0bab25f363.json",
+  "source" : "ca7ef0ab576af879.json",
   "parameterValues" : [ ]
 }

@@ -1,23 +1,21 @@
 {
-  "uid" : "27daa3db3a4c9cb3",
-  "name" : "productPlaceOrderTest",
-  "fullName" : "OrderTest.productPlaceOrderTest",
-  "historyId" : "8534f27e2ea5c5103e4a34c0eda31c30",
+  "uid" : "4542df06d8fe93de",
+  "name" : "Verify user cannot login with invalid username",
+  "fullName" : "LoginTest.loginWithInvalidUsername",
+  "historyId" : "45fe57be3dbfb2444e2f0ee3e818a9c9",
   "time" : {
-    "start" : 1741832596110,
-    "stop" : 1741832597445,
-    "duration" : 1335
+    "start" : 1741833280948,
+    "stop" : 1741833281265,
+    "duration" : 317
   },
-  "description" : "Sample test to demonstrate Allure reporting",
-  "descriptionHtml" : "<p>Sample test to demonstrate Allure reporting</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741832595572,
-      "stop" : 1741832596107,
-      "duration" : 535
+      "start" : 1741833280430,
+      "stop" : 1741833280942,
+      "duration" : 512
     },
     "description" : "",
     "status" : "passed",
@@ -32,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741832597446,
-      "stop" : 1741832597903,
-      "duration" : 457
+      "start" : 1741833281266,
+      "stop" : 1741833281714,
+      "duration" : 448
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a54311b62ba87c3d",
+      "uid" : "1db522e3a0647ec3",
       "name" : "screenshot",
-      "source" : "a54311b62ba87c3d.png",
+      "source" : "1db522e3a0647ec3.png",
       "type" : "image/png",
-      "size" : 61880
+      "size" : 60784
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -54,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "OrderTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "OrderTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "productPlaceOrderTest"
+    "value" : "loginWithInvalidUsername"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -69,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "OrderTest"
+    "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1693-88"
+    "value" : "fv-az1705-933"
   }, {
     "name" : "thread",
-    "value" : "2019@fv-az1693-88.main(1)"
+    "value" : "2015@fv-az1705-933.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -84,7 +82,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Place Order Feature"
+    "value" : "Auth Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -99,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "27daa3db3a4c9cb3.json",
+  "source" : "4542df06d8fe93de.json",
   "parameterValues" : [ ]
 }

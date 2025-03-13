@@ -1,5 +1,5 @@
 {
-  "total" : 2,
+  "total" : 4,
   "items" : [ {
     "uid" : "511f4e9fefbd91c92ae52b564aea3773",
     "name" : "Auth Feature",
@@ -7,9 +7,31 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 11
+      "total" : 7
+    }
+  }, {
+    "uid" : "839d52d90b320091a2fe653af8457f6a",
+    "name" : "UI Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "a5220e984033a78bf85c38e7814d77b0",
+    "name" : "Products Feature",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   }, {
     "uid" : "166f7594e76e3607dfa5c17b4454c4d5",

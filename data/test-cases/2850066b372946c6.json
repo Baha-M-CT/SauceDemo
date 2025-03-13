@@ -1,23 +1,23 @@
 {
-  "uid" : "56da2c8a62a78638",
-  "name" : "checkLoginPageUI",
-  "fullName" : "UserInterfaceTest.checkLoginPageUI",
-  "historyId" : "e898aa0d4ae4df78dfd8e8f8184db0cd",
+  "uid" : "2850066b372946c6",
+  "name" : "checkProductPageUI",
+  "fullName" : "UserInterfaceTest.checkProductPageUI",
+  "historyId" : "378f061b449182c1176a1b8c0b783ce3",
   "time" : {
-    "start" : 1741832600137,
-    "stop" : 1741832600314,
-    "duration" : 177
+    "start" : 1741833290251,
+    "stop" : 1741833291453,
+    "duration" : 1202
   },
-  "description" : "Validate Login page UI elements",
-  "descriptionHtml" : "<p>Validate Login page UI elements</p>\n",
+  "description" : "Validate Products page UI elements",
+  "descriptionHtml" : "<p>Validate Products page UI elements</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741832599602,
-      "stop" : 1741832600136,
-      "duration" : 534
+      "start" : 1741833289751,
+      "stop" : 1741833290249,
+      "duration" : 498
     },
     "description" : "",
     "status" : "passed",
@@ -32,19 +32,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741832600315,
-      "stop" : 1741832600765,
-      "duration" : 450
+      "start" : 1741833291454,
+      "stop" : 1741833291939,
+      "duration" : 485
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "1266f14548614261",
+      "uid" : "3daec580b4423964",
       "name" : "screenshot",
-      "source" : "1266f14548614261.png",
+      "source" : "3daec580b4423964.png",
       "type" : "image/png",
-      "size" : 52536
+      "size" : 337667
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -60,7 +60,7 @@
     "value" : "UserInterfaceTest"
   }, {
     "name" : "testMethod",
-    "value" : "checkLoginPageUI"
+    "value" : "checkProductPageUI"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -72,10 +72,10 @@
     "value" : "UserInterfaceTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1693-88"
+    "value" : "fv-az1705-933"
   }, {
     "name" : "thread",
-    "value" : "2019@fv-az1693-88.main(1)"
+    "value" : "2015@fv-az1705-933.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -84,7 +84,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Auth Feature"
+    "value" : "UI Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -99,6 +99,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "56da2c8a62a78638.json",
+  "source" : "2850066b372946c6.json",
   "parameterValues" : [ ]
 }
