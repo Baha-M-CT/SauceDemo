@@ -1,0 +1,102 @@
+{
+  "uid" : "7df4196a1e1c8a9",
+  "name" : "Verify user cannot login with empty credentials",
+  "fullName" : "LoginTest.loginWithEmptyUsernameAndPassword",
+  "historyId" : "5ae2209116f2d1b460baf90c2cc34561",
+  "time" : {
+    "start" : 1741831193689,
+    "stop" : 1741831193985,
+    "duration" : 296
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741831193080,
+      "stop" : 1741831193687,
+      "duration" : 607
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1741831193986,
+      "stop" : 1741831194429,
+      "duration" : 443
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6452b5c88bf0bd38",
+      "name" : "screenshot",
+      "source" : "6452b5c88bf0bd38.png",
+      "type" : "image/png",
+      "size" : 58208
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithEmptyUsernameAndPassword"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1922-270"
+  }, {
+    "name" : "thread",
+    "value" : "1996@fv-az1922-270.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Auth Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7df4196a1e1c8a9.json",
+  "parameterValues" : [ ]
+}

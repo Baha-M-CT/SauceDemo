@@ -1,0 +1,104 @@
+{
+  "uid" : "6983ba79c9a3f12d",
+  "name" : "checkLoginPageUI",
+  "fullName" : "UserInterfaceTest.checkLoginPageUI",
+  "historyId" : "e898aa0d4ae4df78dfd8e8f8184db0cd",
+  "time" : {
+    "start" : 1741831205907,
+    "stop" : 1741831206082,
+    "duration" : 175
+  },
+  "description" : "Validate Login page UI elements",
+  "descriptionHtml" : "<p>Validate Login page UI elements</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741831205418,
+      "stop" : 1741831205905,
+      "duration" : 487
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1741831206083,
+      "stop" : 1741831206527,
+      "duration" : 444
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fc34017274311ada",
+      "name" : "screenshot",
+      "source" : "fc34017274311ada.png",
+      "type" : "image/png",
+      "size" : 52536
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "UserInterfaceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "UserInterfaceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkLoginPageUI"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "UserInterfaceTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1922-270"
+  }, {
+    "name" : "thread",
+    "value" : "1996@fv-az1922-270.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Auth Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6983ba79c9a3f12d.json",
+  "parameterValues" : [ ]
+}

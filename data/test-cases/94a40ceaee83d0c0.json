@@ -1,0 +1,104 @@
+{
+  "uid" : "94a40ceaee83d0c0",
+  "name" : "productPlaceOrderTest",
+  "fullName" : "OrderTest.productPlaceOrderTest",
+  "historyId" : "8534f27e2ea5c5103e4a34c0eda31c30",
+  "time" : {
+    "start" : 1741831202097,
+    "stop" : 1741831203351,
+    "duration" : 1254
+  },
+  "description" : "Sample test to demonstrate Allure reporting",
+  "descriptionHtml" : "<p>Sample test to demonstrate Allure reporting</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741831201584,
+      "stop" : 1741831202091,
+      "duration" : 507
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1741831203352,
+      "stop" : 1741831203767,
+      "duration" : 415
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c7a040cfb8260a0c",
+      "name" : "screenshot",
+      "source" : "c7a040cfb8260a0c.png",
+      "type" : "image/png",
+      "size" : 61880
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "OrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "OrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "productPlaceOrderTest"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "OrderTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1922-270"
+  }, {
+    "name" : "thread",
+    "value" : "1996@fv-az1922-270.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Place Order Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94a40ceaee83d0c0.json",
+  "parameterValues" : [ ]
+}

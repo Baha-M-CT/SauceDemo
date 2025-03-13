@@ -1,0 +1,102 @@
+{
+  "uid" : "bfa29f2ceb6ccc1e",
+  "name" : "Verify user cannot login with invalid username",
+  "fullName" : "LoginTest.loginWithInvalidUsername",
+  "historyId" : "45fe57be3dbfb2444e2f0ee3e818a9c9",
+  "time" : {
+    "start" : 1741831196248,
+    "stop" : 1741831196564,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741831195725,
+      "stop" : 1741831196246,
+      "duration" : 521
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1741831196565,
+      "stop" : 1741831197001,
+      "duration" : 436
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7d132078e04b617f",
+      "name" : "screenshot",
+      "source" : "7d132078e04b617f.png",
+      "type" : "image/png",
+      "size" : 60784
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithInvalidUsername"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1922-270"
+  }, {
+    "name" : "thread",
+    "value" : "1996@fv-az1922-270.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Auth Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bfa29f2ceb6ccc1e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,104 @@
+{
+  "uid" : "f61e3c787e68cace",
+  "name" : "checkProductPageUI",
+  "fullName" : "UserInterfaceTest.checkProductPageUI",
+  "historyId" : "378f061b449182c1176a1b8c0b783ce3",
+  "time" : {
+    "start" : 1741831207052,
+    "stop" : 1741831208014,
+    "duration" : 962
+  },
+  "description" : "Validate Products page UI elements",
+  "descriptionHtml" : "<p>Validate Products page UI elements</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741831206529,
+      "stop" : 1741831207050,
+      "duration" : 521
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1741831208015,
+      "stop" : 1741831208522,
+      "duration" : 507
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c6fe1da9dc1de4ec",
+      "name" : "screenshot",
+      "source" : "c6fe1da9dc1de4ec.png",
+      "type" : "image/png",
+      "size" : 338669
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "UserInterfaceTest"
+  }, {
+    "name" : "testClass",
+    "value" : "UserInterfaceTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkProductPageUI"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "UserInterfaceTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1922-270"
+  }, {
+    "name" : "thread",
+    "value" : "1996@fv-az1922-270.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Auth Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f61e3c787e68cace.json",
+  "parameterValues" : [ ]
+}
