@@ -17,8 +17,9 @@ The GitHub Actions workflow is set up to automatically publish test report to Gi
 
 ## Pattern design used
 
-- Page Object Model (POM) for a scalable and dynamic web automation framework.
-- Factory pattern in DriverFactory class to create different WebDriver instances based on the requested browser.
+- **Page Object Model (POM)** for a scalable and dynamic web automation framework.
+- **Factory pattern** in DriverFactory class to create different WebDriver instances based on the requested browser.
+- **Data-driven testing** using Excel files to manage test data, allowing tests to run with multiple sets of data.
 
 ## Prerequisites to run the project
 
