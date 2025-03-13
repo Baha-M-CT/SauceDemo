@@ -52,7 +52,7 @@ You can choose what browser to use by changing the value of the `browser` variab
 2. Open gitbash, copy and paste the following command
 
 ```bash
-git clone 
+git clone https://github.com/Baha-M-CT/SauceDemo.git 
 ```
 
 ## Run project
