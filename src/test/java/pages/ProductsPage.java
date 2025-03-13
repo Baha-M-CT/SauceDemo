@@ -128,26 +128,21 @@ public class ProductsPage extends BasePage {
     public void verifyProductsFromExcel(String excelFilePath) throws Exception {
         // Read products data from Excel
         List<Product> products = ExcelReader.getProductsFromExcel(excelFilePath);
-        System.out.println("products = " + products);
 
         // Loop through each product and check on the page
         for (Product product : products) {
             String productId = product.getId();
             String expectedName = product.getName();
             String expectedDescription = product.getDescription();
-            System.out.println("expectedName = " + expectedName);
 
             // Find product name and description on the page using the product ID
             String actualName = getProductNameById(productId);
             String actualDescription = getProductDescriptionById(productId);
 
             // Assert the product data
-            if (!actualName.equals(expectedName)) {
-                System.out.println("Product name mismatch for ID " + productId + ": Expected " + expectedName + ", but got " + actualName);
-            }
-            if (!actualDescription.equals(expectedDescription)) {
-                System.out.println("Product description mismatch for ID " + productId + ": Expected " + expectedDescription + ", but got " + actualDescription);
-            }
+            Assert.assertEquals(actualName, expectedName, "Product name mismatch for ID " + productId + ": Expected " + expectedName + ", but got " + actualName);
+            Assert.assertEquals(actualDescription, expectedDescription, "Product description mismatch for ID " + productId + ": Expected " + expectedDescription + ", but got " + actualDescription);
+
         }
     }
 
