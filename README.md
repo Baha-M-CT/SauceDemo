@@ -57,6 +57,16 @@ git clone
 
 ## Run project
 
+### Headless Mode On/Off
+
+This framework is configured to run tests in headless mode. 
+To enable headless mode, ensure the following line is set in the `src/test/resources/local.properties` file:
+
+
+```ini
+headless=true
+```
+
 Open the project with the desired IDE, then run the following command.
 
 ```bash
