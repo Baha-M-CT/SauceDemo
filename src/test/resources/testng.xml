@@ -4,6 +4,8 @@
         <classes>
             <class name="OrderTest"/>
             <class name="LoginTest"/>
+            <class name="ProductsTest"/>
+            <class name="UserInterfaceTest"/>
         </classes>
     </test>
 </suite>

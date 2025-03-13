@@ -10,7 +10,7 @@ import pages.ProductsPage;
 import utils.ConfigUtils;
 
 @Listeners({io.qameta.allure.testng.AllureTestNg.class})
-@Feature("Auth Feature")
+@Feature("UI Feature")
 public class UserInterfaceTest extends BaseTest {
 
     public UserInterfaceTest() {

@@ -1,5 +1,3 @@
-package test.java.utils;
-
 import base.BaseTest;
 import io.qameta.allure.Feature;
 import org.testng.Assert;
@@ -15,7 +13,7 @@ import utils.ConfigUtils;
 import utils.ExcelReader;
 
 @Listeners({io.qameta.allure.testng.AllureTestNg.class})
-@Feature("Auth Feature")
+@Feature("Products Feature")
 public class ProductsTest extends BaseTest {
 
     public ProductsTest() {
