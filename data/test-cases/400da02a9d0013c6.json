@@ -1,21 +1,21 @@
 {
-  "uid" : "f2bcdf943b678179",
-  "name" : "Verify user can login with valid username and password",
-  "fullName" : "LoginTest.loginWithValidUsernameAndPassword",
-  "historyId" : "a2688d434e59745698a87d287357b82e",
+  "uid" : "400da02a9d0013c6",
+  "name" : "verifyAllProducts",
+  "fullName" : "ProductsTest.verifyAllProducts",
+  "historyId" : "a819247948ca9ac9cb1bd8dfbad19b9d",
   "time" : {
-    "start" : 1741833283883,
-    "stop" : 1741833284230,
-    "duration" : 347
+    "start" : 1741834255917,
+    "stop" : 1741834257182,
+    "duration" : 1265
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741833283330,
-      "stop" : 1741833283881,
-      "duration" : 551
+      "start" : 1741834252953,
+      "stop" : 1741834255808,
+      "duration" : 2855
     },
     "description" : "",
     "status" : "passed",
@@ -30,17 +30,17 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741833284231,
-      "stop" : 1741833284699,
-      "duration" : 468
+      "start" : 1741834257190,
+      "stop" : 1741834257686,
+      "duration" : 496
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "64b3dcb9109267c4",
+      "uid" : "f5638dfa4f2bbd64",
       "name" : "screenshot",
-      "source" : "64b3dcb9109267c4.png",
+      "source" : "f5638dfa4f2bbd64.png",
       "type" : "image/png",
       "size" : 341500
     } ],
@@ -52,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "LoginTest"
+    "value" : "ProductsTest"
   }, {
     "name" : "testClass",
-    "value" : "LoginTest"
+    "value" : "ProductsTest"
   }, {
     "name" : "testMethod",
-    "value" : "loginWithValidUsernameAndPassword"
+    "value" : "verifyAllProducts"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -67,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "LoginTest"
+    "value" : "ProductsTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1705-933"
+    "value" : "fv-az1718-927"
   }, {
     "name" : "thread",
-    "value" : "2015@fv-az1705-933.main(1)"
+    "value" : "2004@fv-az1718-927.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -82,7 +82,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Auth Feature"
+    "value" : "Products Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -97,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f2bcdf943b678179.json",
+  "source" : "400da02a9d0013c6.json",
   "parameterValues" : [ ]
 }

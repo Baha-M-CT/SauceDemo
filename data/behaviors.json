@@ -4,13 +4,13 @@
     "name" : "Products Feature",
     "children" : [ {
       "name" : "verifyAllProducts",
-      "uid" : "ca7ef0ab576af879",
+      "uid" : "400da02a9d0013c6",
       "parentUid" : "a5220e984033a78bf85c38e7814d77b0",
       "status" : "passed",
       "time" : {
-        "start" : 1741833273369,
-        "stop" : 1741833274636,
-        "duration" : 1267
+        "start" : 1741834255917,
+        "stop" : 1741834257182,
+        "duration" : 1265
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -20,85 +20,85 @@
     "name" : "Auth Feature",
     "children" : [ {
       "name" : "Verify user cannot login with empty password",
-      "uid" : "6f061ad5edfd0bae",
+      "uid" : "225074cc7c227ef2",
       "parentUid" : "511f4e9fefbd91c92ae52b564aea3773",
       "status" : "passed",
       "time" : {
-        "start" : 1741833275777,
-        "stop" : 1741833276098,
-        "duration" : 321
+        "start" : 1741834258321,
+        "stop" : 1741834258640,
+        "duration" : 319
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify user cannot login with empty username",
-      "uid" : "bec902780f4b0f07",
+      "uid" : "df84efaed58d5962",
       "parentUid" : "511f4e9fefbd91c92ae52b564aea3773",
       "status" : "passed",
       "time" : {
-        "start" : 1741833277116,
-        "stop" : 1741833277423,
-        "duration" : 307
+        "start" : 1741834259673,
+        "stop" : 1741834260002,
+        "duration" : 329
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify user cannot login with empty credentials",
-      "uid" : "bb5c1690fd695f4c",
+      "uid" : "d67ba8eb01f18a51",
       "parentUid" : "511f4e9fefbd91c92ae52b564aea3773",
       "status" : "passed",
       "time" : {
-        "start" : 1741833278395,
-        "stop" : 1741833278692,
-        "duration" : 297
+        "start" : 1741834261023,
+        "stop" : 1741834261328,
+        "duration" : 305
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify user cannot login with invalid password",
-      "uid" : "64a8d9472d2d8fca",
+      "uid" : "f43295a2ca322a21",
       "parentUid" : "511f4e9fefbd91c92ae52b564aea3773",
       "status" : "passed",
       "time" : {
-        "start" : 1741833279662,
-        "stop" : 1741833279988,
-        "duration" : 326
+        "start" : 1741834262310,
+        "stop" : 1741834262639,
+        "duration" : 329
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify user cannot login with invalid username",
-      "uid" : "4542df06d8fe93de",
+      "uid" : "e1bb854f15e6bc41",
       "parentUid" : "511f4e9fefbd91c92ae52b564aea3773",
       "status" : "passed",
       "time" : {
-        "start" : 1741833280948,
-        "stop" : 1741833281265,
-        "duration" : 317
+        "start" : 1741834263629,
+        "stop" : 1741834263938,
+        "duration" : 309
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify user cannot login with invalid credentials",
-      "uid" : "194d06e607e6aa9f",
+      "uid" : "50a8488723898151",
       "parentUid" : "511f4e9fefbd91c92ae52b564aea3773",
       "status" : "passed",
       "time" : {
-        "start" : 1741833282247,
-        "stop" : 1741833282561,
-        "duration" : 314
+        "start" : 1741834264937,
+        "stop" : 1741834265256,
+        "duration" : 319
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "Verify user can login with valid username and password",
-      "uid" : "f2bcdf943b678179",
+      "uid" : "6e935c6cb559d32",
       "parentUid" : "511f4e9fefbd91c92ae52b564aea3773",
       "status" : "passed",
       "time" : {
-        "start" : 1741833283883,
-        "stop" : 1741833284230,
-        "duration" : 347
+        "start" : 1741834266225,
+        "stop" : 1741834266578,
+        "duration" : 353
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -108,13 +108,13 @@
     "name" : "Place Order Feature",
     "children" : [ {
       "name" : "productPlaceOrderTest",
-      "uid" : "126ed0bcaf14a66b",
+      "uid" : "aba970e864819948",
       "parentUid" : "166f7594e76e3607dfa5c17b4454c4d5",
       "status" : "passed",
       "time" : {
-        "start" : 1741833285199,
-        "stop" : 1741833286452,
-        "duration" : 1253
+        "start" : 1741834267589,
+        "stop" : 1741834268734,
+        "duration" : 1145
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -124,37 +124,37 @@
     "name" : "UI Feature",
     "children" : [ {
       "name" : "checkCartPageUI",
-      "uid" : "bd02800de7f4bc7a",
+      "uid" : "e49494ec2429390c",
       "parentUid" : "839d52d90b320091a2fe653af8457f6a",
       "status" : "passed",
       "time" : {
-        "start" : 1741833287432,
-        "stop" : 1741833288114,
-        "duration" : 682
+        "start" : 1741834269734,
+        "stop" : 1741834270434,
+        "duration" : 700
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "checkLoginPageUI",
-      "uid" : "e326403f82f70e69",
+      "uid" : "ef736879d8babd98",
       "parentUid" : "839d52d90b320091a2fe653af8457f6a",
       "status" : "passed",
       "time" : {
-        "start" : 1741833289111,
-        "stop" : 1741833289291,
-        "duration" : 180
+        "start" : 1741834271437,
+        "stop" : 1741834271618,
+        "duration" : 181
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "checkProductPageUI",
-      "uid" : "2850066b372946c6",
+      "uid" : "eb0727ad68c35196",
       "parentUid" : "839d52d90b320091a2fe653af8457f6a",
       "status" : "passed",
       "time" : {
-        "start" : 1741833290251,
-        "stop" : 1741833291453,
-        "duration" : 1202
+        "start" : 1741834272604,
+        "stop" : 1741834273789,
+        "duration" : 1185
       },
       "flaky" : false,
       "parameters" : [ ]

@@ -1,120 +1,120 @@
 [ {
-  "uid" : "126ed0bcaf14a66b",
-  "name" : "productPlaceOrderTest",
-  "time" : {
-    "start" : 1741833285199,
-    "stop" : 1741833286452,
-    "duration" : 1253
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bec902780f4b0f07",
-  "name" : "Verify user cannot login with empty username",
-  "time" : {
-    "start" : 1741833277116,
-    "stop" : 1741833277423,
-    "duration" : 307
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "194d06e607e6aa9f",
-  "name" : "Verify user cannot login with invalid credentials",
-  "time" : {
-    "start" : 1741833282247,
-    "stop" : 1741833282561,
-    "duration" : 314
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bb5c1690fd695f4c",
-  "name" : "Verify user cannot login with empty credentials",
-  "time" : {
-    "start" : 1741833278395,
-    "stop" : 1741833278692,
-    "duration" : 297
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4542df06d8fe93de",
-  "name" : "Verify user cannot login with invalid username",
-  "time" : {
-    "start" : 1741833280948,
-    "stop" : 1741833281265,
-    "duration" : 317
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ca7ef0ab576af879",
-  "name" : "verifyAllProducts",
-  "time" : {
-    "start" : 1741833273369,
-    "stop" : 1741833274636,
-    "duration" : 1267
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd02800de7f4bc7a",
-  "name" : "checkCartPageUI",
-  "time" : {
-    "start" : 1741833287432,
-    "stop" : 1741833288114,
-    "duration" : 682
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2850066b372946c6",
-  "name" : "checkProductPageUI",
-  "time" : {
-    "start" : 1741833290251,
-    "stop" : 1741833291453,
-    "duration" : 1202
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "64a8d9472d2d8fca",
-  "name" : "Verify user cannot login with invalid password",
-  "time" : {
-    "start" : 1741833279662,
-    "stop" : 1741833279988,
-    "duration" : 326
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6f061ad5edfd0bae",
+  "uid" : "225074cc7c227ef2",
   "name" : "Verify user cannot login with empty password",
   "time" : {
-    "start" : 1741833275777,
-    "stop" : 1741833276098,
-    "duration" : 321
+    "start" : 1741834258321,
+    "stop" : 1741834258640,
+    "duration" : 319
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e326403f82f70e69",
+  "uid" : "aba970e864819948",
+  "name" : "productPlaceOrderTest",
+  "time" : {
+    "start" : 1741834267589,
+    "stop" : 1741834268734,
+    "duration" : 1145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e49494ec2429390c",
+  "name" : "checkCartPageUI",
+  "time" : {
+    "start" : 1741834269734,
+    "stop" : 1741834270434,
+    "duration" : 700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d67ba8eb01f18a51",
+  "name" : "Verify user cannot login with empty credentials",
+  "time" : {
+    "start" : 1741834261023,
+    "stop" : 1741834261328,
+    "duration" : 305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df84efaed58d5962",
+  "name" : "Verify user cannot login with empty username",
+  "time" : {
+    "start" : 1741834259673,
+    "stop" : 1741834260002,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef736879d8babd98",
   "name" : "checkLoginPageUI",
   "time" : {
-    "start" : 1741833289111,
-    "stop" : 1741833289291,
-    "duration" : 180
+    "start" : 1741834271437,
+    "stop" : 1741834271618,
+    "duration" : 181
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f2bcdf943b678179",
+  "uid" : "eb0727ad68c35196",
+  "name" : "checkProductPageUI",
+  "time" : {
+    "start" : 1741834272604,
+    "stop" : 1741834273789,
+    "duration" : 1185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50a8488723898151",
+  "name" : "Verify user cannot login with invalid credentials",
+  "time" : {
+    "start" : 1741834264937,
+    "stop" : 1741834265256,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e935c6cb559d32",
   "name" : "Verify user can login with valid username and password",
   "time" : {
-    "start" : 1741833283883,
-    "stop" : 1741833284230,
-    "duration" : 347
+    "start" : 1741834266225,
+    "stop" : 1741834266578,
+    "duration" : 353
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1bb854f15e6bc41",
+  "name" : "Verify user cannot login with invalid username",
+  "time" : {
+    "start" : 1741834263629,
+    "stop" : 1741834263938,
+    "duration" : 309
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f43295a2ca322a21",
+  "name" : "Verify user cannot login with invalid password",
+  "time" : {
+    "start" : 1741834262310,
+    "stop" : 1741834262639,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "400da02a9d0013c6",
+  "name" : "verifyAllProducts",
+  "time" : {
+    "start" : 1741834255917,
+    "stop" : 1741834257182,
+    "duration" : 1265
   },
   "status" : "passed",
   "severity" : "normal"

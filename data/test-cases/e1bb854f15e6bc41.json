@@ -1,23 +1,21 @@
 {
-  "uid" : "e326403f82f70e69",
-  "name" : "checkLoginPageUI",
-  "fullName" : "UserInterfaceTest.checkLoginPageUI",
-  "historyId" : "e898aa0d4ae4df78dfd8e8f8184db0cd",
+  "uid" : "e1bb854f15e6bc41",
+  "name" : "Verify user cannot login with invalid username",
+  "fullName" : "LoginTest.loginWithInvalidUsername",
+  "historyId" : "45fe57be3dbfb2444e2f0ee3e818a9c9",
   "time" : {
-    "start" : 1741833289111,
-    "stop" : 1741833289291,
-    "duration" : 180
+    "start" : 1741834263629,
+    "stop" : 1741834263938,
+    "duration" : 309
   },
-  "description" : "Validate Login page UI elements",
-  "descriptionHtml" : "<p>Validate Login page UI elements</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741833288584,
-      "stop" : 1741833289109,
-      "duration" : 525
+      "start" : 1741834263085,
+      "stop" : 1741834263625,
+      "duration" : 540
     },
     "description" : "",
     "status" : "passed",
@@ -32,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741833289291,
-      "stop" : 1741833289750,
-      "duration" : 459
+      "start" : 1741834263939,
+      "stop" : 1741834264372,
+      "duration" : 433
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ef8cb1c1aeff2d21",
+      "uid" : "ec76ec5ad5c7d89c",
       "name" : "screenshot",
-      "source" : "ef8cb1c1aeff2d21.png",
+      "source" : "ec76ec5ad5c7d89c.png",
       "type" : "image/png",
-      "size" : 52536
+      "size" : 60784
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -54,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "checkLoginPageUI"
+    "value" : "loginWithInvalidUsername"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -69,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "UserInterfaceTest"
+    "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1705-933"
+    "value" : "fv-az1718-927"
   }, {
     "name" : "thread",
-    "value" : "2015@fv-az1705-933.main(1)"
+    "value" : "2004@fv-az1718-927.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -84,7 +82,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "UI Feature"
+    "value" : "Auth Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -99,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e326403f82f70e69.json",
+  "source" : "e1bb854f15e6bc41.json",
   "parameterValues" : [ ]
 }

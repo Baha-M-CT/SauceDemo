@@ -1,21 +1,21 @@
 {
-  "uid" : "ca7ef0ab576af879",
-  "name" : "verifyAllProducts",
-  "fullName" : "ProductsTest.verifyAllProducts",
-  "historyId" : "a819247948ca9ac9cb1bd8dfbad19b9d",
+  "uid" : "d67ba8eb01f18a51",
+  "name" : "Verify user cannot login with empty credentials",
+  "fullName" : "LoginTest.loginWithEmptyUsernameAndPassword",
+  "historyId" : "5ae2209116f2d1b460baf90c2cc34561",
   "time" : {
-    "start" : 1741833273369,
-    "stop" : 1741833274636,
-    "duration" : 1267
+    "start" : 1741834261023,
+    "stop" : 1741834261328,
+    "duration" : 305
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741833264474,
-      "stop" : 1741833273291,
-      "duration" : 8817
+      "start" : 1741834260427,
+      "stop" : 1741834261020,
+      "duration" : 593
     },
     "description" : "",
     "status" : "passed",
@@ -30,19 +30,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741833274645,
-      "stop" : 1741833275138,
-      "duration" : 493
+      "start" : 1741834261329,
+      "stop" : 1741834261771,
+      "duration" : 442
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "76500444e5948608",
+      "uid" : "3a0a1f57da67869a",
       "name" : "screenshot",
-      "source" : "76500444e5948608.png",
+      "source" : "3a0a1f57da67869a.png",
       "type" : "image/png",
-      "size" : 341500
+      "size" : 58208
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -52,13 +52,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "ProductsTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testClass",
-    "value" : "ProductsTest"
+    "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "verifyAllProducts"
+    "value" : "loginWithEmptyUsernameAndPassword"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -67,13 +67,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "ProductsTest"
+    "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1705-933"
+    "value" : "fv-az1718-927"
   }, {
     "name" : "thread",
-    "value" : "2015@fv-az1705-933.main(1)"
+    "value" : "2004@fv-az1718-927.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -82,7 +82,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Products Feature"
+    "value" : "Auth Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -97,6 +97,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ca7ef0ab576af879.json",
+  "source" : "d67ba8eb01f18a51.json",
   "parameterValues" : [ ]
 }
