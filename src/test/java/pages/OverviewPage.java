@@ -2,26 +2,18 @@ package pages;
 
 import base.BasePage;
 import io.qameta.allure.Step;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
-import static org.testng.Assert.assertEquals;
 
 public class OverviewPage extends BasePage {
     public OverviewPage(WebDriver driver) {
         super(driver);
-        //PageFactory.initElements(driver, this);
     }
 
-//    public static final By finishButn = By.id("finish");
-//    private static final String EXPECTED_URL = "https://www.saucedemo.com/checkout-step-two.html";
-//    public static final By overviewTitle = By.cssSelector("[data-test='title']");
-//    public static final By subtotalValue = By.cssSelector("[data-test='subtotal-label']");
     @FindBy(id = "finish")
     public WebElement finishButn;
 

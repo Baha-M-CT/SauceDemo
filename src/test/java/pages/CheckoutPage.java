@@ -5,27 +5,15 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
-import static org.testng.Assert.assertEquals;
 
 public class CheckoutPage extends BasePage {
     public CheckoutPage(WebDriver driver) {
         super(driver);
-       // PageFactory.initElements(driver, this);
     }
 
-//    public static final By firstNameField = By.id("first-name");
-//
-//    public static final By lastNameField = By.id("last-name");
-//
-//    public static final By postalCodeField = By.id("postal-code");
-//
-//    public static final By continueBtn = By.id("continue");
-//
-//    public static final By checkoutTitle = By.cssSelector("[data-test='title']");
     @FindBy(id = "first-name")
     public WebElement firstNameField;
 

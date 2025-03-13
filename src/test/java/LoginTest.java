@@ -44,7 +44,6 @@ public class LoginTest extends BaseTest {
 
     }
 
-
     @Test(description = "Verify user cannot login with invalid credentials")
     public void loginWithInvalidUsernameAndPassword() {
         loginPage = new LoginPage(driver);
@@ -52,7 +51,6 @@ public class LoginTest extends BaseTest {
         loginPage.assertInvalidUsernameOrPasswordErrorMessage();
 
     }
-
 
     @Test(description = "Verify user cannot login with empty credentials")
     public void loginWithEmptyUsernameAndPassword() {
@@ -69,7 +67,6 @@ public class LoginTest extends BaseTest {
         loginPage.assertEmptyUsernameOrBothErrorMessageIsDisplayed();
 
     }
-
 
     @Test(description = "Verify user cannot login with empty password")
     public void loginWithEmptyPassword() {
