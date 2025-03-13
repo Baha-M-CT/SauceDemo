@@ -1,0 +1,199 @@
+{
+  "uid" : "d93d130226e1fb3f",
+  "name" : "Verify user cannot login with invalid username",
+  "fullName" : "LoginTest.loginWithInvalidUsername",
+  "historyId" : "45fe57be3dbfb2444e2f0ee3e818a9c9",
+  "time" : {
+    "start" : 1741870540631,
+    "stop" : 1741870540944,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741870540043,
+      "stop" : 1741870540629,
+      "duration" : 586
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login with username: user_name and password",
+      "time" : {
+        "start" : 1741870540632,
+        "stop" : 1741870540910,
+        "duration" : 278
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter username: user_name",
+        "time" : {
+          "start" : 1741870540632,
+          "stop" : 1741870540742,
+          "duration" : 110
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "user_name"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Enter password",
+        "time" : {
+          "start" : 1741870540742,
+          "stop" : 1741870540821,
+          "duration" : 79
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "secret_sauce"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click login button",
+        "time" : {
+          "start" : 1741870540821,
+          "stop" : 1741870540910,
+          "duration" : 89
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "user_name"
+      }, {
+        "name" : "password",
+        "value" : "secret_sauce"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Assert invalid username or password error message is displayed",
+      "time" : {
+        "start" : 1741870540910,
+        "stop" : 1741870540944,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1741870540945,
+      "stop" : 1741870541391,
+      "duration" : 446
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a642a5b15dd74ba7",
+      "name" : "screenshot",
+      "source" : "a642a5b15dd74ba7.png",
+      "type" : "image/png",
+      "size" : 60784
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginWithInvalidUsername"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1337-304"
+  }, {
+    "name" : "thread",
+    "value" : "2053@fv-az1337-304.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Auth Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d93d130226e1fb3f.json",
+  "parameterValues" : [ ]
+}

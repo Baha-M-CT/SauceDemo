@@ -1,0 +1,214 @@
+{
+  "uid" : "5629bf0ea32d960c",
+  "name" : "verifyAllProducts",
+  "fullName" : "ProductsTest.verifyAllProducts",
+  "historyId" : "a819247948ca9ac9cb1bd8dfbad19b9d",
+  "time" : {
+    "start" : 1741870532212,
+    "stop" : 1741870534252,
+    "duration" : 2040
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1741870528286,
+      "stop" : 1741870531880,
+      "duration" : 3594
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login with username: standard_user and password",
+      "time" : {
+        "start" : 1741870532260,
+        "stop" : 1741870532657,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Enter username: standard_user",
+        "time" : {
+          "start" : 1741870532261,
+          "stop" : 1741870532408,
+          "duration" : 147
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "standard_user"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Enter password",
+        "time" : {
+          "start" : 1741870532409,
+          "stop" : 1741870532513,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "secret_sauce"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click login button",
+        "time" : {
+          "start" : 1741870532513,
+          "stop" : 1741870532657,
+          "duration" : 144
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "standard_user"
+      }, {
+        "name" : "password",
+        "value" : "secret_sauce"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify products page is displayed",
+      "time" : {
+        "start" : 1741870532657,
+        "stop" : 1741870532706,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify 'Products' text is displayed",
+        "time" : {
+          "start" : 1741870532657,
+          "stop" : 1741870532705,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1741870534264,
+      "stop" : 1741870534773,
+      "duration" : 509
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1fdaf6b73ebac7b9",
+      "name" : "screenshot",
+      "source" : "1fdaf6b73ebac7b9.png",
+      "type" : "image/png",
+      "size" : 341500
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ProductsTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ProductsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "verifyAllProducts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Surefire suite"
+  }, {
+    "name" : "suite",
+    "value" : "Surefire test"
+  }, {
+    "name" : "subSuite",
+    "value" : "ProductsTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1337-304"
+  }, {
+    "name" : "thread",
+    "value" : "2053@fv-az1337-304.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "feature",
+    "value" : "Products Feature"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5629bf0ea32d960c.json",
+  "parameterValues" : [ ]
+}
