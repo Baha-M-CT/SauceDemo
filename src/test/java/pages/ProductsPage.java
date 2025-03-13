@@ -57,6 +57,9 @@ public class ProductsPage extends BasePage {
     @FindBy(xpath = "//*[@id='reset_sidebar_link']")
     public WebElement resetSidebarLink;
 
+    @FindBy(css = "[data-test='shopping-cart-badge']")
+    public WebElement cartBadge;
+
 
     public boolean isAppLogoDisplayed() {
         wait.until(ExpectedConditions.visibilityOf(appLogo));
@@ -88,11 +91,20 @@ public class ProductsPage extends BasePage {
         Assert.assertEquals(expectedText, actualText, "Product title text does not match expected text");
     }
 
+    @Step("Assert cart badge number is {num}")
+    public void assertCartBadgeNumber(int num) {
+        wait.until(ExpectedConditions.visibilityOf(cartBadge));
+        String actualText = cartBadge.getText().trim();
+        String expectedText = String.valueOf(num);
+        Assert.assertEquals(actualText, expectedText, "Cart badge number does not match expected number");
+    }
+
     @Step("Add product to cart")
     public void addProductToCart() {
         assertProductsTextIsDisplayed();
         isAppLogoDisplayed();
         clickFleeceJacketAddtoCartBtn();
+        assertCartBadgeNumber(1);
     }
 
     @Step("Navigate to cart")

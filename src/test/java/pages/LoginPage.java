@@ -93,12 +93,21 @@ public class LoginPage extends BasePage {
         Assert.assertEquals(actualText, expectedText, "Login password text does not match expected text");
     }
 
+    @Step("Assert login button color is green #3ddc91")
+    public void assertLoginButtonColor() {
+        wait.until(ExpectedConditions.visibilityOf(loginbutton));
+        String actualColor = loginbutton.getCssValue("background-color");
+        String expectedColor = "rgba(61, 220, 145, 1)"; // Equivalent of #3ddc91 in RGBA
+        Assert.assertEquals(actualColor, expectedColor, "Login button background color does not match expected color");
+    }
+
     @Step("Verify Login page UI elements")
     public void asserLoginPageElements() {
         wait.until(ExpectedConditions.visibilityOf(loginbutton));
         Assert.assertTrue(loginbutton.isDisplayed(), "Login button is not visible");
         Assert.assertTrue(usernameField.isDisplayed(), "Username field is not visible");
         Assert.assertTrue(passwordField.isDisplayed(), "Password field is not visible");
+        assertLoginButtonColor();
 
     }
 }
