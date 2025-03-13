@@ -1,21 +1,21 @@
 {
-  "uid" : "d93d130226e1fb3f",
-  "name" : "Verify user cannot login with invalid username",
-  "fullName" : "LoginTest.loginWithInvalidUsername",
-  "historyId" : "45fe57be3dbfb2444e2f0ee3e818a9c9",
+  "uid" : "291e1802d4038c15",
+  "name" : "Verify user cannot login with invalid credentials",
+  "fullName" : "LoginTest.loginWithInvalidUsernameAndPassword",
+  "historyId" : "861fd6673bf556584e4d8da93bdb680d",
   "time" : {
-    "start" : 1741870540631,
-    "stop" : 1741870540944,
-    "duration" : 313
+    "start" : 1741873649756,
+    "stop" : 1741873650104,
+    "duration" : 348
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741870540043,
-      "stop" : 1741870540629,
-      "duration" : 586
+      "start" : 1741873649226,
+      "stop" : 1741873649754,
+      "duration" : 528
     },
     "description" : "",
     "status" : "passed",
@@ -30,26 +30,26 @@
   "testStage" : {
     "status" : "passed",
     "steps" : [ {
-      "name" : "Login with username: user_name and password",
+      "name" : "Login with username: user and password",
       "time" : {
-        "start" : 1741870540632,
-        "stop" : 1741870540910,
-        "duration" : 278
+        "start" : 1741873649757,
+        "stop" : 1741873650069,
+        "duration" : 312
       },
       "status" : "passed",
       "steps" : [ {
-        "name" : "Enter username: user_name",
+        "name" : "Enter username: user",
         "time" : {
-          "start" : 1741870540632,
-          "stop" : 1741870540742,
-          "duration" : 110
+          "start" : 1741873649757,
+          "stop" : 1741873649881,
+          "duration" : 124
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "username",
-          "value" : "user_name"
+          "value" : "user"
         } ],
         "stepsCount" : 0,
         "attachmentsCount" : 0,
@@ -58,16 +58,16 @@
       }, {
         "name" : "Enter password",
         "time" : {
-          "start" : 1741870540742,
-          "stop" : 1741870540821,
-          "duration" : 79
+          "start" : 1741873649881,
+          "stop" : 1741873649972,
+          "duration" : 91
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "password",
-          "value" : "secret_sauce"
+          "value" : "inv_password"
         } ],
         "stepsCount" : 0,
         "attachmentsCount" : 0,
@@ -76,9 +76,9 @@
       }, {
         "name" : "Click login button",
         "time" : {
-          "start" : 1741870540821,
-          "stop" : 1741870540910,
-          "duration" : 89
+          "start" : 1741873649972,
+          "stop" : 1741873650069,
+          "duration" : 97
         },
         "status" : "passed",
         "steps" : [ ],
@@ -92,10 +92,10 @@
       "attachments" : [ ],
       "parameters" : [ {
         "name" : "username",
-        "value" : "user_name"
+        "value" : "user"
       }, {
         "name" : "password",
-        "value" : "secret_sauce"
+        "value" : "inv_password"
       } ],
       "stepsCount" : 3,
       "attachmentsCount" : 0,
@@ -104,9 +104,9 @@
     }, {
       "name" : "Assert invalid username or password error message is displayed",
       "time" : {
-        "start" : 1741870540910,
-        "stop" : 1741870540944,
-        "duration" : 34
+        "start" : 1741873650069,
+        "stop" : 1741873650104,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -127,19 +127,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741870540945,
-      "stop" : 1741870541391,
-      "duration" : 446
+      "start" : 1741873650105,
+      "stop" : 1741873650695,
+      "duration" : 590
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "a642a5b15dd74ba7",
+      "uid" : "c71d0fa9536220c1",
       "name" : "screenshot",
-      "source" : "a642a5b15dd74ba7.png",
+      "source" : "c71d0fa9536220c1.png",
       "type" : "image/png",
-      "size" : 60784
+      "size" : 60168
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -155,7 +155,7 @@
     "value" : "LoginTest"
   }, {
     "name" : "testMethod",
-    "value" : "loginWithInvalidUsername"
+    "value" : "loginWithInvalidUsernameAndPassword"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -167,10 +167,10 @@
     "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-304"
+    "value" : "fv-az802-384"
   }, {
     "name" : "thread",
-    "value" : "2053@fv-az1337-304.main(1)"
+    "value" : "2017@fv-az802-384.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -194,6 +194,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d93d130226e1fb3f.json",
+  "source" : "291e1802d4038c15.json",
   "parameterValues" : [ ]
 }

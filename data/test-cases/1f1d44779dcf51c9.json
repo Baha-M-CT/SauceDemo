@@ -1,12 +1,12 @@
 {
-  "uid" : "af37665774bba408",
+  "uid" : "1f1d44779dcf51c9",
   "name" : "checkLoginPageUI",
   "fullName" : "UserInterfaceTest.checkLoginPageUI",
   "historyId" : "e898aa0d4ae4df78dfd8e8f8184db0cd",
   "time" : {
-    "start" : 1741870548586,
-    "stop" : 1741870548789,
-    "duration" : 203
+    "start" : 1741873656614,
+    "stop" : 1741873656826,
+    "duration" : 212
   },
   "description" : "Validate Login page UI elements",
   "descriptionHtml" : "<p>Validate Login page UI elements</p>\n",
@@ -15,9 +15,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741870548066,
-      "stop" : 1741870548584,
-      "duration" : 518
+      "start" : 1741873656079,
+      "stop" : 1741873656612,
+      "duration" : 533
     },
     "description" : "",
     "status" : "passed",
@@ -35,9 +35,9 @@
     "steps" : [ {
       "name" : "Assert login credentials are displayed correctly",
       "time" : {
-        "start" : 1741870548587,
-        "stop" : 1741870548654,
-        "duration" : 67
+        "start" : 1741873656615,
+        "stop" : 1741873656678,
+        "duration" : 63
       },
       "status" : "passed",
       "steps" : [ ],
@@ -50,9 +50,9 @@
     }, {
       "name" : "Assert password is displayed correctly",
       "time" : {
-        "start" : 1741870548654,
-        "stop" : 1741870548690,
-        "duration" : 36
+        "start" : 1741873656678,
+        "stop" : 1741873656717,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ ],
@@ -65,17 +65,17 @@
     }, {
       "name" : "Verify Login page UI elements",
       "time" : {
-        "start" : 1741870548690,
-        "stop" : 1741870548788,
-        "duration" : 98
+        "start" : 1741873656717,
+        "stop" : 1741873656826,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Assert login button color is green #3ddc91",
         "time" : {
-          "start" : 1741870548764,
-          "stop" : 1741870548788,
-          "duration" : 24
+          "start" : 1741873656798,
+          "stop" : 1741873656826,
+          "duration" : 28
         },
         "status" : "passed",
         "steps" : [ ],
@@ -103,17 +103,17 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741870548789,
-      "stop" : 1741870549225,
-      "duration" : 436
+      "start" : 1741873656827,
+      "stop" : 1741873657272,
+      "duration" : 445
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "717b4c0ab0cb9522",
+      "uid" : "aa4cd33268643356",
       "name" : "screenshot",
-      "source" : "717b4c0ab0cb9522.png",
+      "source" : "aa4cd33268643356.png",
       "type" : "image/png",
       "size" : 52536
     } ],
@@ -143,10 +143,10 @@
     "value" : "UserInterfaceTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-304"
+    "value" : "fv-az802-384"
   }, {
     "name" : "thread",
-    "value" : "2053@fv-az1337-304.main(1)"
+    "value" : "2017@fv-az802-384.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -170,6 +170,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "af37665774bba408.json",
+  "source" : "1f1d44779dcf51c9.json",
   "parameterValues" : [ ]
 }

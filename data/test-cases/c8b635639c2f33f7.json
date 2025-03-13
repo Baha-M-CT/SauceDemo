@@ -1,21 +1,23 @@
 {
-  "uid" : "181e6d30ed03dd17",
-  "name" : "Verify user cannot login with invalid password",
-  "fullName" : "LoginTest.loginWithInvalidPassword",
-  "historyId" : "9604915977dae7fe467e5bd7163b3316",
+  "uid" : "c8b635639c2f33f7",
+  "name" : "checkProductPageUI",
+  "fullName" : "UserInterfaceTest.checkProductPageUI",
+  "historyId" : "378f061b449182c1176a1b8c0b783ce3",
   "time" : {
-    "start" : 1741870539281,
-    "stop" : 1741870539600,
-    "duration" : 319
+    "start" : 1741873657809,
+    "stop" : 1741873659023,
+    "duration" : 1214
   },
+  "description" : "Validate Products page UI elements",
+  "descriptionHtml" : "<p>Validate Products page UI elements</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741870538714,
-      "stop" : 1741870539279,
-      "duration" : 565
+      "start" : 1741873657273,
+      "stop" : 1741873657807,
+      "duration" : 534
     },
     "description" : "",
     "status" : "passed",
@@ -28,21 +30,22 @@
     "hasContent" : false
   } ],
   "testStage" : {
+    "description" : "Validate Products page UI elements",
     "status" : "passed",
     "steps" : [ {
       "name" : "Login with username: standard_user and password",
       "time" : {
-        "start" : 1741870539287,
-        "stop" : 1741870539567,
-        "duration" : 280
+        "start" : 1741873657811,
+        "stop" : 1741873658120,
+        "duration" : 309
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Enter username: standard_user",
         "time" : {
-          "start" : 1741870539287,
-          "stop" : 1741870539395,
-          "duration" : 108
+          "start" : 1741873657811,
+          "stop" : 1741873657925,
+          "duration" : 114
         },
         "status" : "passed",
         "steps" : [ ],
@@ -58,16 +61,16 @@
       }, {
         "name" : "Enter password",
         "time" : {
-          "start" : 1741870539395,
-          "stop" : 1741870539475,
-          "duration" : 80
+          "start" : 1741873657926,
+          "stop" : 1741873658003,
+          "duration" : 77
         },
         "status" : "passed",
         "steps" : [ ],
         "attachments" : [ ],
         "parameters" : [ {
           "name" : "password",
-          "value" : "inv_password"
+          "value" : "secret_sauce"
         } ],
         "stepsCount" : 0,
         "attachmentsCount" : 0,
@@ -76,9 +79,9 @@
       }, {
         "name" : "Click login button",
         "time" : {
-          "start" : 1741870539475,
-          "stop" : 1741870539567,
-          "duration" : 92
+          "start" : 1741873658004,
+          "stop" : 1741873658120,
+          "duration" : 116
         },
         "status" : "passed",
         "steps" : [ ],
@@ -95,18 +98,78 @@
         "value" : "standard_user"
       }, {
         "name" : "password",
-        "value" : "inv_password"
+        "value" : "secret_sauce"
       } ],
       "stepsCount" : 3,
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false,
       "hasContent" : true
     }, {
-      "name" : "Assert invalid username or password error message is displayed",
+      "name" : "Verify products page is displayed",
       "time" : {
-        "start" : 1741870539568,
-        "stop" : 1741870539600,
-        "duration" : 32
+        "start" : 1741873658121,
+        "stop" : 1741873658163,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify 'Products' text is displayed",
+        "time" : {
+          "start" : 1741873658121,
+          "stop" : 1741873658163,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify 'Products' side menu is displayed",
+      "time" : {
+        "start" : 1741873658163,
+        "stop" : 1741873658898,
+        "duration" : 735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify 'Products' page UI elements",
+      "time" : {
+        "start" : 1741873658899,
+        "stop" : 1741873658944,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify Footer elements are displayed",
+      "time" : {
+        "start" : 1741873658944,
+        "stop" : 1741873659023,
+        "duration" : 79
       },
       "status" : "passed",
       "steps" : [ ],
@@ -119,7 +182,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 5,
+    "stepsCount" : 9,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -127,19 +190,19 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741870539601,
-      "stop" : 1741870540042,
-      "duration" : 441
+      "start" : 1741873659024,
+      "stop" : 1741873659518,
+      "duration" : 494
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "79827f4f2991a63d",
+      "uid" : "11b4f295689c19b5",
       "name" : "screenshot",
-      "source" : "79827f4f2991a63d.png",
+      "source" : "11b4f295689c19b5.png",
       "type" : "image/png",
-      "size" : 61212
+      "size" : 337667
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -149,13 +212,13 @@
   } ],
   "labels" : [ {
     "name" : "package",
-    "value" : "LoginTest"
+    "value" : "UserInterfaceTest"
   }, {
     "name" : "testClass",
-    "value" : "LoginTest"
+    "value" : "UserInterfaceTest"
   }, {
     "name" : "testMethod",
-    "value" : "loginWithInvalidPassword"
+    "value" : "checkProductPageUI"
   }, {
     "name" : "parentSuite",
     "value" : "Surefire suite"
@@ -164,13 +227,13 @@
     "value" : "Surefire test"
   }, {
     "name" : "subSuite",
-    "value" : "LoginTest"
+    "value" : "UserInterfaceTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-304"
+    "value" : "fv-az802-384"
   }, {
     "name" : "thread",
-    "value" : "2053@fv-az1337-304.main(1)"
+    "value" : "2017@fv-az802-384.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -179,7 +242,7 @@
     "value" : "java"
   }, {
     "name" : "feature",
-    "value" : "Auth Feature"
+    "value" : "UI Feature"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -194,6 +257,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "181e6d30ed03dd17.json",
+  "source" : "c8b635639c2f33f7.json",
   "parameterValues" : [ ]
 }

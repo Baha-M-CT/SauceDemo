@@ -1,21 +1,21 @@
 {
-  "uid" : "195469ea1d05dbf4",
+  "uid" : "829e762ea0993f61",
   "name" : "Verify user cannot login with empty credentials",
   "fullName" : "LoginTest.loginWithEmptyUsernameAndPassword",
   "historyId" : "5ae2209116f2d1b460baf90c2cc34561",
   "time" : {
-    "start" : 1741870537962,
-    "stop" : 1741870538269,
-    "duration" : 307
+    "start" : 1741873645869,
+    "stop" : 1741873646173,
+    "duration" : 304
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741870537430,
-      "stop" : 1741870537959,
-      "duration" : 529
+      "start" : 1741873645336,
+      "stop" : 1741873645866,
+      "duration" : 530
     },
     "description" : "",
     "status" : "passed",
@@ -32,17 +32,17 @@
     "steps" : [ {
       "name" : "Login with username:  and password",
       "time" : {
-        "start" : 1741870537963,
-        "stop" : 1741870538233,
-        "duration" : 270
+        "start" : 1741873645870,
+        "stop" : 1741873646134,
+        "duration" : 264
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Enter username: ",
         "time" : {
-          "start" : 1741870537963,
-          "stop" : 1741870538077,
-          "duration" : 114
+          "start" : 1741873645870,
+          "stop" : 1741873645972,
+          "duration" : 102
         },
         "status" : "passed",
         "steps" : [ ],
@@ -58,9 +58,9 @@
       }, {
         "name" : "Enter password",
         "time" : {
-          "start" : 1741870538077,
-          "stop" : 1741870538147,
-          "duration" : 70
+          "start" : 1741873645973,
+          "stop" : 1741873646045,
+          "duration" : 72
         },
         "status" : "passed",
         "steps" : [ ],
@@ -76,9 +76,9 @@
       }, {
         "name" : "Click login button",
         "time" : {
-          "start" : 1741870538147,
-          "stop" : 1741870538233,
-          "duration" : 86
+          "start" : 1741873646045,
+          "stop" : 1741873646134,
+          "duration" : 89
         },
         "status" : "passed",
         "steps" : [ ],
@@ -104,9 +104,9 @@
     }, {
       "name" : "Assert empty username or both error message is displayed",
       "time" : {
-        "start" : 1741870538233,
-        "stop" : 1741870538268,
-        "duration" : 35
+        "start" : 1741873646135,
+        "stop" : 1741873646173,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
@@ -127,17 +127,17 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741870538270,
-      "stop" : 1741870538713,
-      "duration" : 443
+      "start" : 1741873646176,
+      "stop" : 1741873646620,
+      "duration" : 444
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "725f2029ee9ec7d2",
+      "uid" : "a5337c46aefa4038",
       "name" : "screenshot",
-      "source" : "725f2029ee9ec7d2.png",
+      "source" : "a5337c46aefa4038.png",
       "type" : "image/png",
       "size" : 58208
     } ],
@@ -167,10 +167,10 @@
     "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-304"
+    "value" : "fv-az802-384"
   }, {
     "name" : "thread",
-    "value" : "2053@fv-az1337-304.main(1)"
+    "value" : "2017@fv-az802-384.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -194,6 +194,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "195469ea1d05dbf4.json",
+  "source" : "829e762ea0993f61.json",
   "parameterValues" : [ ]
 }

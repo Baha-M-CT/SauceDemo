@@ -1,12 +1,12 @@
 {
-  "uid" : "2a12218f4b459e72",
+  "uid" : "d8ccb80dc13d5f63",
   "name" : "productPlaceOrderTest",
   "fullName" : "OrderTest.productPlaceOrderTest",
   "historyId" : "8534f27e2ea5c5103e4a34c0eda31c30",
   "time" : {
-    "start" : 1741870544623,
-    "stop" : 1741870545913,
-    "duration" : 1290
+    "start" : 1741873652658,
+    "stop" : 1741873653918,
+    "duration" : 1260
   },
   "description" : "Sample test to demonstrate Allure reporting",
   "descriptionHtml" : "<p>Sample test to demonstrate Allure reporting</p>\n",
@@ -15,9 +15,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741870544050,
-      "stop" : 1741870544602,
-      "duration" : 552
+      "start" : 1741873652087,
+      "stop" : 1741873652622,
+      "duration" : 535
     },
     "description" : "",
     "status" : "passed",
@@ -35,17 +35,17 @@
     "steps" : [ {
       "name" : "Login with username: standard_user and password",
       "time" : {
-        "start" : 1741870544626,
-        "stop" : 1741870544882,
-        "duration" : 256
+        "start" : 1741873652663,
+        "stop" : 1741873652981,
+        "duration" : 318
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Enter username: standard_user",
         "time" : {
-          "start" : 1741870544626,
-          "stop" : 1741870544717,
-          "duration" : 91
+          "start" : 1741873652663,
+          "stop" : 1741873652780,
+          "duration" : 117
         },
         "status" : "passed",
         "steps" : [ ],
@@ -61,9 +61,9 @@
       }, {
         "name" : "Enter password",
         "time" : {
-          "start" : 1741870544717,
-          "stop" : 1741870544785,
-          "duration" : 68
+          "start" : 1741873652780,
+          "stop" : 1741873652865,
+          "duration" : 85
         },
         "status" : "passed",
         "steps" : [ ],
@@ -79,9 +79,9 @@
       }, {
         "name" : "Click login button",
         "time" : {
-          "start" : 1741870544785,
-          "stop" : 1741870544882,
-          "duration" : 97
+          "start" : 1741873652865,
+          "stop" : 1741873652981,
+          "duration" : 116
         },
         "status" : "passed",
         "steps" : [ ],
@@ -107,17 +107,17 @@
     }, {
       "name" : "Add product to cart",
       "time" : {
-        "start" : 1741870544882,
-        "stop" : 1741870545212,
-        "duration" : 330
+        "start" : 1741873652981,
+        "stop" : 1741873653172,
+        "duration" : 191
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Verify 'Products' text is displayed",
         "time" : {
-          "start" : 1741870544882,
-          "stop" : 1741870544921,
-          "duration" : 39
+          "start" : 1741873652981,
+          "stop" : 1741873653026,
+          "duration" : 45
         },
         "status" : "passed",
         "steps" : [ ],
@@ -130,9 +130,9 @@
       }, {
         "name" : "Assert cart badge number is 1",
         "time" : {
-          "start" : 1741870545174,
-          "stop" : 1741870545212,
-          "duration" : 38
+          "start" : 1741873653139,
+          "stop" : 1741873653172,
+          "duration" : 33
         },
         "status" : "passed",
         "steps" : [ ],
@@ -155,9 +155,9 @@
     }, {
       "name" : "Navigate to cart",
       "time" : {
-        "start" : 1741870545213,
-        "stop" : 1741870545292,
-        "duration" : 79
+        "start" : 1741873653172,
+        "stop" : 1741873653260,
+        "duration" : 88
       },
       "status" : "passed",
       "steps" : [ ],
@@ -170,17 +170,17 @@
     }, {
       "name" : "Navigate to the checkout page",
       "time" : {
-        "start" : 1741870545292,
-        "stop" : 1741870545421,
-        "duration" : 129
+        "start" : 1741873653261,
+        "stop" : 1741873653400,
+        "duration" : 139
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Verify 'Your Cart' text is displayed",
         "time" : {
-          "start" : 1741870545292,
-          "stop" : 1741870545321,
-          "duration" : 29
+          "start" : 1741873653261,
+          "stop" : 1741873653292,
+          "duration" : 31
         },
         "status" : "passed",
         "steps" : [ ],
@@ -193,9 +193,9 @@
       }, {
         "name" : "Verify product text is displayed",
         "time" : {
-          "start" : 1741870545322,
-          "stop" : 1741870545347,
-          "duration" : 25
+          "start" : 1741873653293,
+          "stop" : 1741873653321,
+          "duration" : 28
         },
         "status" : "passed",
         "steps" : [ ],
@@ -208,9 +208,9 @@
       }, {
         "name" : "Click on the checkout button",
         "time" : {
-          "start" : 1741870545347,
-          "stop" : 1741870545421,
-          "duration" : 74
+          "start" : 1741873653321,
+          "stop" : 1741873653400,
+          "duration" : 79
         },
         "status" : "passed",
         "steps" : [ ],
@@ -230,17 +230,17 @@
     }, {
       "name" : "Insert checkout information and continue",
       "time" : {
-        "start" : 1741870545422,
-        "stop" : 1741870545734,
-        "duration" : 312
+        "start" : 1741873653400,
+        "stop" : 1741873653722,
+        "duration" : 322
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Verify 'Checkout: Your Information' text is displayed",
         "time" : {
-          "start" : 1741870545422,
-          "stop" : 1741870545448,
-          "duration" : 26
+          "start" : 1741873653400,
+          "stop" : 1741873653429,
+          "duration" : 29
         },
         "status" : "passed",
         "steps" : [ ],
@@ -253,9 +253,9 @@
       }, {
         "name" : "Enter first name: Baha",
         "time" : {
-          "start" : 1741870545448,
-          "stop" : 1741870545505,
-          "duration" : 57
+          "start" : 1741873653429,
+          "stop" : 1741873653495,
+          "duration" : 66
         },
         "status" : "passed",
         "steps" : [ ],
@@ -271,9 +271,9 @@
       }, {
         "name" : "Enter last name: Mametyarov",
         "time" : {
-          "start" : 1741870545506,
-          "stop" : 1741870545574,
-          "duration" : 68
+          "start" : 1741873653495,
+          "stop" : 1741873653565,
+          "duration" : 70
         },
         "status" : "passed",
         "steps" : [ ],
@@ -289,9 +289,9 @@
       }, {
         "name" : "Enter postal code: 06117",
         "time" : {
-          "start" : 1741870545574,
-          "stop" : 1741870545641,
-          "duration" : 67
+          "start" : 1741873653566,
+          "stop" : 1741873653628,
+          "duration" : 62
         },
         "status" : "passed",
         "steps" : [ ],
@@ -307,9 +307,9 @@
       }, {
         "name" : "Click on the continue button",
         "time" : {
-          "start" : 1741870545641,
-          "stop" : 1741870545734,
-          "duration" : 93
+          "start" : 1741873653628,
+          "stop" : 1741873653722,
+          "duration" : 94
         },
         "status" : "passed",
         "steps" : [ ],
@@ -338,17 +338,17 @@
     }, {
       "name" : "Complete the order",
       "time" : {
-        "start" : 1741870545735,
-        "stop" : 1741870545858,
-        "duration" : 123
+        "start" : 1741873653722,
+        "stop" : 1741873653858,
+        "duration" : 136
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Verify 'Checkout: Overview' text is displayed",
         "time" : {
-          "start" : 1741870545735,
-          "stop" : 1741870545761,
-          "duration" : 26
+          "start" : 1741873653722,
+          "stop" : 1741873653753,
+          "duration" : 31
         },
         "status" : "passed",
         "steps" : [ ],
@@ -361,9 +361,9 @@
       }, {
         "name" : "Verify subtotal value is displayed",
         "time" : {
-          "start" : 1741870545761,
-          "stop" : 1741870545785,
-          "duration" : 24
+          "start" : 1741873653753,
+          "stop" : 1741873653780,
+          "duration" : 27
         },
         "status" : "passed",
         "steps" : [ ],
@@ -376,8 +376,8 @@
       }, {
         "name" : "Verify current URL matches expected URL",
         "time" : {
-          "start" : 1741870545785,
-          "stop" : 1741870545789,
+          "start" : 1741873653780,
+          "stop" : 1741873653784,
           "duration" : 4
         },
         "status" : "passed",
@@ -391,9 +391,9 @@
       }, {
         "name" : "Click on the finish button",
         "time" : {
-          "start" : 1741870545789,
-          "stop" : 1741870545858,
-          "duration" : 69
+          "start" : 1741873653784,
+          "stop" : 1741873653858,
+          "duration" : 74
         },
         "status" : "passed",
         "steps" : [ ],
@@ -413,25 +413,25 @@
     }, {
       "name" : "Assert that the 'Thank You' and 'Order has been dispatched' messages are displayed",
       "time" : {
-        "start" : 1741870545858,
-        "stop" : 1741870545912,
-        "duration" : 54
+        "start" : 1741873653858,
+        "stop" : 1741873653918,
+        "duration" : 60
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Assert that the 'Thank You' message is displayed",
         "time" : {
-          "start" : 1741870545858,
-          "stop" : 1741870545887,
-          "duration" : 29
+          "start" : 1741873653858,
+          "stop" : 1741873653888,
+          "duration" : 30
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Verify 'Thank you for your order!' message is displayed",
           "time" : {
-            "start" : 1741870545858,
-            "stop" : 1741870545887,
-            "duration" : 29
+            "start" : 1741873653858,
+            "stop" : 1741873653888,
+            "duration" : 30
           },
           "status" : "passed",
           "steps" : [ ],
@@ -451,17 +451,17 @@
       }, {
         "name" : "Assert that the 'Order has been dispatched' message is displayed",
         "time" : {
-          "start" : 1741870545887,
-          "stop" : 1741870545912,
-          "duration" : 25
+          "start" : 1741873653888,
+          "stop" : 1741873653918,
+          "duration" : 30
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "Verify 'Your order has been dispatched' message is displayed",
           "time" : {
-            "start" : 1741870545887,
-            "stop" : 1741870545912,
-            "duration" : 25
+            "start" : 1741873653889,
+            "stop" : 1741873653918,
+            "duration" : 29
           },
           "status" : "passed",
           "steps" : [ ],
@@ -496,17 +496,17 @@
   "afterStages" : [ {
     "name" : "teardown",
     "time" : {
-      "start" : 1741870545914,
-      "stop" : 1741870546372,
-      "duration" : 458
+      "start" : 1741873653919,
+      "stop" : 1741873654357,
+      "duration" : 438
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "2918f90599fbca35",
+      "uid" : "a754be1a55509df6",
       "name" : "screenshot",
-      "source" : "2918f90599fbca35.png",
+      "source" : "a754be1a55509df6.png",
       "type" : "image/png",
       "size" : 61880
     } ],
@@ -536,10 +536,10 @@
     "value" : "OrderTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-304"
+    "value" : "fv-az802-384"
   }, {
     "name" : "thread",
-    "value" : "2053@fv-az1337-304.main(1)"
+    "value" : "2017@fv-az802-384.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -563,6 +563,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2a12218f4b459e72.json",
+  "source" : "d8ccb80dc13d5f63.json",
   "parameterValues" : [ ]
 }
