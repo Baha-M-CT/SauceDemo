@@ -46,6 +46,7 @@ public class UserInterfaceTest extends BaseTest {
         productsPage.assertProductsSideMenu();
         productsPage.assertProductsPageElements();
         footerPage.assertFooterElementsDisplayed();
+        footerPage.checkSocialMediaIcons();
     }
 
     @Test
@@ -61,6 +62,7 @@ public class UserInterfaceTest extends BaseTest {
         productsPage.navigateToCart();
         cartPage.assertCartPageElements();
         footerPage.assertFooterElementsDisplayed();
+        footerPage.checkSocialMediaIcons();
         cartPage.continueShoppingBtn.click();
         productsPage.assertProductsPageIsDisplayed();
     }

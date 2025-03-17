@@ -153,6 +153,9 @@ public class ProductsPage extends BasePage {
             Assert.assertEquals(actualName, expectedName, "Product name mismatch for ID " + productId + ": Expected " + expectedName + ", but got " + actualName);
             Assert.assertEquals(actualDescription, expectedDescription, "Product description mismatch for ID " + productId + ": Expected " + expectedDescription + ", but got " + actualDescription);
 
+            // Assert the "Add to Cart" button is visible and clickable
+            Assert.assertTrue(isAddToCartBtnVisibleAndClickable(productId), "Add to Cart button is not visible or clickable for product ID " + productId);
+
         }
     }
 
@@ -160,6 +163,12 @@ public class ProductsPage extends BasePage {
         String nameSelector = String.format("[data-test='item-%s-title-link']", id);
         return driver.findElement(By.cssSelector(nameSelector)).getText();
     }
+
+    public boolean isAddToCartBtnVisibleAndClickable(String id) {
+        String addToCartBtnSelector = String.format("//a[@data-test='item-%s-title-link']/../following-sibling::div[@class='pricebar']/button", id);
+        return driver.findElement(By.xpath(addToCartBtnSelector)).isDisplayed() && driver.findElement(By.xpath(addToCartBtnSelector)).isEnabled();
+    }
+
 
     public String getProductDescriptionById(String id) {
         String nameSelector = String.format("[data-test='item-%s-title-link']+div", id);
