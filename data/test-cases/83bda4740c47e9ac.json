@@ -1,21 +1,21 @@
 {
-  "uid" : "291e1802d4038c15",
+  "uid" : "83bda4740c47e9ac",
   "name" : "Verify user cannot login with invalid credentials",
   "fullName" : "LoginTest.loginWithInvalidUsernameAndPassword",
   "historyId" : "861fd6673bf556584e4d8da93bdb680d",
   "time" : {
-    "start" : 1741873649756,
-    "stop" : 1741873650104,
-    "duration" : 348
+    "start" : 1742411301898,
+    "stop" : 1742411302230,
+    "duration" : 332
   },
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1741873649226,
-      "stop" : 1741873649754,
-      "duration" : 528
+      "start" : 1742411301358,
+      "stop" : 1742411301896,
+      "duration" : 538
     },
     "description" : "",
     "status" : "passed",
@@ -32,17 +32,17 @@
     "steps" : [ {
       "name" : "Login with username: user and password",
       "time" : {
-        "start" : 1741873649757,
-        "stop" : 1741873650069,
-        "duration" : 312
+        "start" : 1742411301899,
+        "stop" : 1742411302195,
+        "duration" : 296
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "Enter username: user",
         "time" : {
-          "start" : 1741873649757,
-          "stop" : 1741873649881,
-          "duration" : 124
+          "start" : 1742411301899,
+          "stop" : 1742411302012,
+          "duration" : 113
         },
         "status" : "passed",
         "steps" : [ ],
@@ -58,9 +58,9 @@
       }, {
         "name" : "Enter password",
         "time" : {
-          "start" : 1741873649881,
-          "stop" : 1741873649972,
-          "duration" : 91
+          "start" : 1742411302012,
+          "stop" : 1742411302102,
+          "duration" : 90
         },
         "status" : "passed",
         "steps" : [ ],
@@ -76,9 +76,9 @@
       }, {
         "name" : "Click login button",
         "time" : {
-          "start" : 1741873649972,
-          "stop" : 1741873650069,
-          "duration" : 97
+          "start" : 1742411302102,
+          "stop" : 1742411302195,
+          "duration" : 93
         },
         "status" : "passed",
         "steps" : [ ],
@@ -104,9 +104,9 @@
     }, {
       "name" : "Assert invalid username or password error message is displayed",
       "time" : {
-        "start" : 1741873650069,
-        "stop" : 1741873650104,
-        "duration" : 35
+        "start" : 1742411302196,
+        "stop" : 1742411302230,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -125,27 +125,21 @@
     "hasContent" : true
   },
   "afterStages" : [ {
-    "name" : "teardown",
+    "name" : "afterMethod",
     "time" : {
-      "start" : 1741873650105,
-      "stop" : 1741873650695,
-      "duration" : 590
+      "start" : 1742411302231,
+      "stop" : 1742411302332,
+      "duration" : 101
     },
     "description" : "",
     "status" : "passed",
     "steps" : [ ],
-    "attachments" : [ {
-      "uid" : "c71d0fa9536220c1",
-      "name" : "screenshot",
-      "source" : "c71d0fa9536220c1.png",
-      "type" : "image/png",
-      "size" : 60168
-    } ],
+    "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 0,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "hasContent" : true
+    "hasContent" : false
   } ],
   "labels" : [ {
     "name" : "package",
@@ -167,10 +161,10 @@
     "value" : "LoginTest"
   }, {
     "name" : "host",
-    "value" : "fv-az802-384"
+    "value" : "fv-az1979-965"
   }, {
     "name" : "thread",
-    "value" : "2017@fv-az802-384.main(1)"
+    "value" : "1965@fv-az1979-965.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -194,6 +188,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "291e1802d4038c15.json",
+  "source" : "83bda4740c47e9ac.json",
   "parameterValues" : [ ]
 }

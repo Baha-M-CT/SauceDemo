@@ -4,13 +4,13 @@
     "name" : "ProductsTest",
     "children" : [ {
       "name" : "verifyAllProducts",
-      "uid" : "c5b0cb85116d080",
+      "uid" : "12f082363ff5ccb4",
       "parentUid" : "a3ac2f0e285d2d2169eb0a87303dfeca",
       "status" : "passed",
       "time" : {
-        "start" : 1741873640199,
-        "stop" : 1741873642066,
-        "duration" : 1867
+        "start" : 1742411293574,
+        "stop" : 1742411296163,
+        "duration" : 2589
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -20,85 +20,85 @@
     "name" : "LoginTest",
     "children" : [ {
       "name" : "loginWithEmptyPassword",
-      "uid" : "96736dd51522090c",
+      "uid" : "35c51786deb37e2d",
       "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
       "status" : "passed",
       "time" : {
-        "start" : 1741873643144,
-        "stop" : 1741873643485,
-        "duration" : 341
+        "start" : 1742411297143,
+        "stop" : 1742411297490,
+        "duration" : 347
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "loginWithEmptyUsername",
-      "uid" : "62fd85fc2ac1a9cd",
+      "uid" : "5acada555aea0402",
       "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
       "status" : "passed",
       "time" : {
-        "start" : 1741873644554,
-        "stop" : 1741873644880,
-        "duration" : 326
+        "start" : 1742411298112,
+        "stop" : 1742411298430,
+        "duration" : 318
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "loginWithEmptyUsernameAndPassword",
-      "uid" : "829e762ea0993f61",
+      "uid" : "7e1f074bbc8e7ca2",
       "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
       "status" : "passed",
       "time" : {
-        "start" : 1741873645869,
-        "stop" : 1741873646173,
-        "duration" : 304
+        "start" : 1742411299050,
+        "stop" : 1742411299341,
+        "duration" : 291
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "loginWithInvalidPassword",
-      "uid" : "b75ce51674e810b5",
+      "uid" : "3821b6482a67af04",
       "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
       "status" : "passed",
       "time" : {
-        "start" : 1741873647154,
-        "stop" : 1741873647483,
-        "duration" : 329
-      },
-      "flaky" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "loginWithInvalidUsername",
-      "uid" : "de60fe194e209bb3",
-      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1741873648474,
-        "stop" : 1741873648787,
+        "start" : 1742411299964,
+        "stop" : 1742411300277,
         "duration" : 313
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
-      "name" : "loginWithInvalidUsernameAndPassword",
-      "uid" : "291e1802d4038c15",
+      "name" : "loginWithInvalidUsername",
+      "uid" : "c2564f90bf6e11fc",
       "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
       "status" : "passed",
       "time" : {
-        "start" : 1741873649756,
-        "stop" : 1741873650104,
-        "duration" : 348
+        "start" : 1742411300934,
+        "stop" : 1742411301254,
+        "duration" : 320
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "loginWithInvalidUsernameAndPassword",
+      "uid" : "83bda4740c47e9ac",
+      "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1742411301898,
+        "stop" : 1742411302230,
+        "duration" : 332
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "loginWithValidUsernameAndPassword",
-      "uid" : "9589098c582a8cb9",
+      "uid" : "42ba6e0024b3c8e4",
       "parentUid" : "7cbde4e1492086c9f8631b2d4e369dc0",
       "status" : "passed",
       "time" : {
-        "start" : 1741873651243,
-        "stop" : 1741873651594,
-        "duration" : 351
+        "start" : 1742411302864,
+        "stop" : 1742411303205,
+        "duration" : 341
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -108,13 +108,13 @@
     "name" : "OrderTest",
     "children" : [ {
       "name" : "productPlaceOrderTest",
-      "uid" : "d8ccb80dc13d5f63",
+      "uid" : "2fc6316d30088df0",
       "parentUid" : "aa0057276e961704972faf81e0dd148c",
       "status" : "passed",
       "time" : {
-        "start" : 1741873652658,
-        "stop" : 1741873653918,
-        "duration" : 1260
+        "start" : 1742411303859,
+        "stop" : 1742411305369,
+        "duration" : 1510
       },
       "flaky" : false,
       "parameters" : [ ]
@@ -124,37 +124,37 @@
     "name" : "UserInterfaceTest",
     "children" : [ {
       "name" : "checkCartPageUI",
-      "uid" : "7274427ea3ad2b50",
+      "uid" : "6a11a87968710fec",
       "parentUid" : "8c121095b7c387c422cb114414093d54",
       "status" : "passed",
       "time" : {
-        "start" : 1741873654885,
-        "stop" : 1741873655609,
-        "duration" : 724
+        "start" : 1742411306015,
+        "stop" : 1742411312209,
+        "duration" : 6194
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "checkLoginPageUI",
-      "uid" : "1f1d44779dcf51c9",
+      "uid" : "e57418df3f463442",
       "parentUid" : "8c121095b7c387c422cb114414093d54",
       "status" : "passed",
       "time" : {
-        "start" : 1741873656614,
-        "stop" : 1741873656826,
-        "duration" : 212
+        "start" : 1742411312846,
+        "stop" : 1742411313046,
+        "duration" : 200
       },
       "flaky" : false,
       "parameters" : [ ]
     }, {
       "name" : "checkProductPageUI",
-      "uid" : "c8b635639c2f33f7",
+      "uid" : "acff872c2be98f52",
       "parentUid" : "8c121095b7c387c422cb114414093d54",
       "status" : "passed",
       "time" : {
-        "start" : 1741873657809,
-        "stop" : 1741873659023,
-        "duration" : 1214
+        "start" : 1742411313689,
+        "stop" : 1742411318571,
+        "duration" : 4882
       },
       "flaky" : false,
       "parameters" : [ ]
