@@ -135,6 +135,7 @@ public class ProductsPage extends BasePage {
         Assert.assertTrue(filterTab.isDisplayed(), "Filter tab is not visible");
     }
 
+    @Step("Verify that product details are correctly displayed")
     public void verifyProductsFromExcel(String excelFilePath) throws Exception {
         // Read products data from Excel
         List<Product> products = ExcelReader.getProductsFromExcel(excelFilePath);
