@@ -32,10 +32,12 @@ public class BaseTest {
     }
 
     @AfterMethod
-    public void teardown(ITestResult result) {
-        String testCaseName = result.getMethod().getMethodName();
-        File destFile = new File("target" + File.separator + "screenshots" + File.separator + testCaseName + ".png");
-        takeScreenShot(destFile);
+    public void afterMethod(ITestResult result) {
+        if (ITestResult.FAILURE == result.getStatus()) {
+            String testCaseName = result.getMethod().getMethodName();
+            File destFile = new File("target" + File.separator + "screenshots" + File.separator + testCaseName + ".png");
+            takeScreenShot(destFile);
+        }
         driver.quit();
     }
 
